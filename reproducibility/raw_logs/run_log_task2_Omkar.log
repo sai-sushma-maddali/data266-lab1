@@ -1,0 +1,116 @@
+[2026-09-19 00:03:53] [INFO] Initialized training session for Omkar_Rajale
+[2026-09-19 00:03:53] [INFO] Using device: NVIDIA GeForce RTX 5090
+[2026-09-19 00:04:11] [INFO] --- START TRAINING: FastText_Baseline ---
+[2026-09-19 00:04:11] [INFO] Parameters: 3,840,129 | Epochs: 5 | LR: 0.001
+[2026-09-19 00:04:17] [INFO] [FastText_Baseline] Epoch 1/5 | Step 200/1094 | Loss: 0.5846
+[2026-09-19 00:04:22] [INFO] [FastText_Baseline] Epoch 1/5 | Step 400/1094 | Loss: 0.4259
+[2026-09-19 00:04:27] [INFO] [FastText_Baseline] Epoch 1/5 | Step 600/1094 | Loss: 0.3370
+[2026-09-19 00:04:31] [INFO] [FastText_Baseline] Epoch 1/5 | Step 800/1094 | Loss: 0.2871
+[2026-09-19 00:04:35] [INFO] [FastText_Baseline] Epoch 1/5 | Step 1000/1094 | Loss: 0.2619
+[2026-09-19 00:04:37] [INFO] [FastText_Baseline] Epoch 1/5 | Step 1094/1094 | Loss: 0.2434
+[2026-09-19 00:04:37] [INFO] [FastText_Baseline] Epoch 1 complete in 26.67s | Avg Loss: 0.4101
+[2026-09-19 00:04:42] [INFO] [FastText_Baseline] Epoch 2/5 | Step 200/1094 | Loss: 0.2271
+[2026-09-19 00:04:47] [INFO] [FastText_Baseline] Epoch 2/5 | Step 400/1094 | Loss: 0.2170
+[2026-09-19 00:04:52] [INFO] [FastText_Baseline] Epoch 2/5 | Step 600/1094 | Loss: 0.2492
+[2026-09-19 00:04:56] [INFO] [FastText_Baseline] Epoch 2/5 | Step 800/1094 | Loss: 0.2147
+[2026-09-19 00:05:01] [INFO] [FastText_Baseline] Epoch 2/5 | Step 1000/1094 | Loss: 0.2127
+[2026-09-19 00:05:03] [INFO] [FastText_Baseline] Epoch 2/5 | Step 1094/1094 | Loss: 0.2392
+[2026-09-19 00:05:03] [INFO] [FastText_Baseline] Epoch 2 complete in 25.56s | Avg Loss: 0.2234
+[2026-09-19 00:05:08] [INFO] [FastText_Baseline] Epoch 3/5 | Step 200/1094 | Loss: 0.1839
+[2026-09-19 00:05:13] [INFO] [FastText_Baseline] Epoch 3/5 | Step 400/1094 | Loss: 0.1937
+[2026-09-19 00:05:17] [INFO] [FastText_Baseline] Epoch 3/5 | Step 600/1094 | Loss: 0.1884
+[2026-09-19 00:05:22] [INFO] [FastText_Baseline] Epoch 3/5 | Step 800/1094 | Loss: 0.1774
+[2026-09-19 00:05:26] [INFO] [FastText_Baseline] Epoch 3/5 | Step 1000/1094 | Loss: 0.1711
+[2026-09-19 00:05:28] [INFO] [FastText_Baseline] Epoch 3/5 | Step 1094/1094 | Loss: 0.1736
+[2026-09-19 00:05:28] [INFO] [FastText_Baseline] Epoch 3 complete in 25.26s | Avg Loss: 0.1972
+[2026-09-19 00:05:33] [INFO] [FastText_Baseline] Epoch 4/5 | Step 200/1094 | Loss: 0.1977
+[2026-09-19 00:05:38] [INFO] [FastText_Baseline] Epoch 4/5 | Step 400/1094 | Loss: 0.1748
+[2026-09-19 00:05:43] [INFO] [FastText_Baseline] Epoch 4/5 | Step 600/1094 | Loss: 0.1654
+[2026-09-19 00:05:47] [INFO] [FastText_Baseline] Epoch 4/5 | Step 800/1094 | Loss: 0.1513
+[2026-09-19 00:05:52] [INFO] [FastText_Baseline] Epoch 4/5 | Step 1000/1094 | Loss: 0.1959
+[2026-09-19 00:05:54] [INFO] [FastText_Baseline] Epoch 4/5 | Step 1094/1094 | Loss: 0.1617
+[2026-09-19 00:05:54] [INFO] [FastText_Baseline] Epoch 4 complete in 25.48s | Avg Loss: 0.1872
+[2026-09-19 00:05:58] [INFO] [FastText_Baseline] Epoch 5/5 | Step 200/1094 | Loss: 0.1901
+[2026-09-19 00:06:03] [INFO] [FastText_Baseline] Epoch 5/5 | Step 400/1094 | Loss: 0.1775
+[2026-09-19 00:06:08] [INFO] [FastText_Baseline] Epoch 5/5 | Step 600/1094 | Loss: 0.1640
+[2026-09-19 00:06:12] [INFO] [FastText_Baseline] Epoch 5/5 | Step 800/1094 | Loss: 0.1508
+[2026-09-19 00:06:16] [INFO] [FastText_Baseline] Epoch 5/5 | Step 1000/1094 | Loss: 0.2365
+[2026-09-19 00:06:18] [INFO] [FastText_Baseline] Epoch 5/5 | Step 1094/1094 | Loss: 0.1840
+[2026-09-19 00:06:19] [INFO] [FastText_Baseline] Epoch 5 complete in 24.74s | Avg Loss: 0.1817
+[2026-09-19 00:06:19] [INFO] Saved weights to task2_sentiment/Omkar_Rajale/checkpoints/FastText_Baseline.pt
+[2026-09-19 00:50:33] [INFO] --- START TRAINING: TextCNN_Exp1 ---
+[2026-09-19 00:50:34] [INFO] Parameters: 3,994,201 | Epochs: 5 | LR: 0.001
+[2026-09-19 00:50:40] [INFO] [TextCNN_Exp1] Epoch 1/5 | Step 200/1094 | Loss: 0.3258
+[2026-09-19 00:50:44] [INFO] [TextCNN_Exp1] Epoch 1/5 | Step 400/1094 | Loss: 0.2377
+[2026-09-19 00:50:48] [INFO] [TextCNN_Exp1] Epoch 1/5 | Step 600/1094 | Loss: 0.2498
+[2026-09-19 00:50:53] [INFO] [TextCNN_Exp1] Epoch 1/5 | Step 800/1094 | Loss: 0.2267
+[2026-09-19 00:50:57] [INFO] [TextCNN_Exp1] Epoch 1/5 | Step 1000/1094 | Loss: 0.2461
+[2026-09-19 00:50:59] [INFO] [TextCNN_Exp1] Epoch 1/5 | Step 1094/1094 | Loss: 0.1972
+[2026-09-19 00:50:59] [INFO] [TextCNN_Exp1] Epoch 1 complete in 25.77s | Avg Loss: 0.2930
+[2026-09-19 00:51:04] [INFO] [TextCNN_Exp1] Epoch 2/5 | Step 200/1094 | Loss: 0.1915
+[2026-09-19 00:51:08] [INFO] [TextCNN_Exp1] Epoch 2/5 | Step 400/1094 | Loss: 0.1682
+[2026-09-19 00:51:13] [INFO] [TextCNN_Exp1] Epoch 2/5 | Step 600/1094 | Loss: 0.1775
+[2026-09-19 00:51:17] [INFO] [TextCNN_Exp1] Epoch 2/5 | Step 800/1094 | Loss: 0.2128
+[2026-09-19 00:51:21] [INFO] [TextCNN_Exp1] Epoch 2/5 | Step 1000/1094 | Loss: 0.2225
+[2026-09-19 00:51:23] [INFO] [TextCNN_Exp1] Epoch 2/5 | Step 1094/1094 | Loss: 0.1891
+[2026-09-19 00:51:23] [INFO] [TextCNN_Exp1] Epoch 2 complete in 23.85s | Avg Loss: 0.1990
+[2026-09-19 00:51:28] [INFO] [TextCNN_Exp1] Epoch 3/5 | Step 200/1094 | Loss: 0.1810
+[2026-09-19 00:51:32] [INFO] [TextCNN_Exp1] Epoch 3/5 | Step 400/1094 | Loss: 0.1807
+[2026-09-19 00:51:36] [INFO] [TextCNN_Exp1] Epoch 3/5 | Step 600/1094 | Loss: 0.1773
+[2026-09-19 00:51:41] [INFO] [TextCNN_Exp1] Epoch 3/5 | Step 800/1094 | Loss: 0.1314
+[2026-09-19 00:51:45] [INFO] [TextCNN_Exp1] Epoch 3/5 | Step 1000/1094 | Loss: 0.1629
+[2026-09-19 00:51:47] [INFO] [TextCNN_Exp1] Epoch 3/5 | Step 1094/1094 | Loss: 0.1547
+[2026-09-19 00:51:47] [INFO] [TextCNN_Exp1] Epoch 3 complete in 23.76s | Avg Loss: 0.1745
+[2026-09-19 00:51:51] [INFO] [TextCNN_Exp1] Epoch 4/5 | Step 200/1094 | Loss: 0.1434
+[2026-09-19 00:51:56] [INFO] [TextCNN_Exp1] Epoch 4/5 | Step 400/1094 | Loss: 0.1692
+[2026-09-19 00:52:00] [INFO] [TextCNN_Exp1] Epoch 4/5 | Step 600/1094 | Loss: 0.2108
+[2026-09-19 00:52:04] [INFO] [TextCNN_Exp1] Epoch 4/5 | Step 800/1094 | Loss: 0.1751
+[2026-09-19 00:52:09] [INFO] [TextCNN_Exp1] Epoch 4/5 | Step 1000/1094 | Loss: 0.1408
+[2026-09-19 00:52:11] [INFO] [TextCNN_Exp1] Epoch 4/5 | Step 1094/1094 | Loss: 0.1266
+[2026-09-19 00:52:11] [INFO] [TextCNN_Exp1] Epoch 4 complete in 23.75s | Avg Loss: 0.1581
+[2026-09-19 00:52:15] [INFO] [TextCNN_Exp1] Epoch 5/5 | Step 200/1094 | Loss: 0.1584
+[2026-09-19 00:52:19] [INFO] [TextCNN_Exp1] Epoch 5/5 | Step 400/1094 | Loss: 0.1490
+[2026-09-19 00:52:24] [INFO] [TextCNN_Exp1] Epoch 5/5 | Step 600/1094 | Loss: 0.1279
+[2026-09-19 00:52:28] [INFO] [TextCNN_Exp1] Epoch 5/5 | Step 800/1094 | Loss: 0.1689
+[2026-09-19 00:52:32] [INFO] [TextCNN_Exp1] Epoch 5/5 | Step 1000/1094 | Loss: 0.1511
+[2026-09-19 00:52:34] [INFO] [TextCNN_Exp1] Epoch 5/5 | Step 1094/1094 | Loss: 0.1577
+[2026-09-19 00:52:34] [INFO] [TextCNN_Exp1] Epoch 5 complete in 23.63s | Avg Loss: 0.1457
+[2026-09-19 00:52:34] [INFO] Saved weights to task2_sentiment/Omkar_Rajale/checkpoints/TextCNN_Exp1.pt
+[2026-09-19 00:54:21] [INFO] --- START TRAINING: Transformer_Exp2 ---
+[2026-09-19 00:54:21] [INFO] Parameters: 4,113,281 | Epochs: 5 | LR: 0.0005
+[2026-09-19 00:54:26] [INFO] [Transformer_Exp2] Epoch 1/5 | Step 200/1094 | Loss: 0.2966
+[2026-09-19 00:54:31] [INFO] [Transformer_Exp2] Epoch 1/5 | Step 400/1094 | Loss: 0.2691
+[2026-09-19 00:54:35] [INFO] [Transformer_Exp2] Epoch 1/5 | Step 600/1094 | Loss: 0.2116
+[2026-09-19 00:54:40] [INFO] [Transformer_Exp2] Epoch 1/5 | Step 800/1094 | Loss: 0.2129
+[2026-09-19 00:54:44] [INFO] [Transformer_Exp2] Epoch 1/5 | Step 1000/1094 | Loss: 0.1781
+[2026-09-19 00:54:46] [INFO] [Transformer_Exp2] Epoch 1/5 | Step 1094/1094 | Loss: 0.1701
+[2026-09-19 00:54:46] [INFO] [Transformer_Exp2] Epoch 1 complete in 25.00s | Avg Loss: 0.2641
+[2026-09-19 00:54:51] [INFO] [Transformer_Exp2] Epoch 2/5 | Step 200/1094 | Loss: 0.2040
+[2026-09-19 00:54:55] [INFO] [Transformer_Exp2] Epoch 2/5 | Step 400/1094 | Loss: 0.2101
+[2026-09-19 00:55:00] [INFO] [Transformer_Exp2] Epoch 2/5 | Step 600/1094 | Loss: 0.2206
+[2026-09-19 00:55:04] [INFO] [Transformer_Exp2] Epoch 2/5 | Step 800/1094 | Loss: 0.2290
+[2026-09-19 00:55:09] [INFO] [Transformer_Exp2] Epoch 2/5 | Step 1000/1094 | Loss: 0.1891
+[2026-09-19 00:55:11] [INFO] [Transformer_Exp2] Epoch 2/5 | Step 1094/1094 | Loss: 0.1801
+[2026-09-19 00:55:11] [INFO] [Transformer_Exp2] Epoch 2 complete in 24.50s | Avg Loss: 0.1902
+[2026-09-19 00:55:15] [INFO] [Transformer_Exp2] Epoch 3/5 | Step 200/1094 | Loss: 0.1768
+[2026-09-19 00:55:20] [INFO] [Transformer_Exp2] Epoch 3/5 | Step 400/1094 | Loss: 0.1516
+[2026-09-19 00:55:25] [INFO] [Transformer_Exp2] Epoch 3/5 | Step 600/1094 | Loss: 0.1524
+[2026-09-19 00:55:29] [INFO] [Transformer_Exp2] Epoch 3/5 | Step 800/1094 | Loss: 0.1753
+[2026-09-19 00:55:33] [INFO] [Transformer_Exp2] Epoch 3/5 | Step 1000/1094 | Loss: 0.1283
+[2026-09-19 00:55:36] [INFO] [Transformer_Exp2] Epoch 3/5 | Step 1094/1094 | Loss: 0.1470
+[2026-09-19 00:55:36] [INFO] [Transformer_Exp2] Epoch 3 complete in 24.73s | Avg Loss: 0.1713
+[2026-09-19 00:55:40] [INFO] [Transformer_Exp2] Epoch 4/5 | Step 200/1094 | Loss: 0.1825
+[2026-09-19 00:55:45] [INFO] [Transformer_Exp2] Epoch 4/5 | Step 400/1094 | Loss: 0.2017
+[2026-09-19 00:55:49] [INFO] [Transformer_Exp2] Epoch 4/5 | Step 600/1094 | Loss: 0.1611
+[2026-09-19 00:55:54] [INFO] [Transformer_Exp2] Epoch 4/5 | Step 800/1094 | Loss: 0.1704
+[2026-09-19 00:55:58] [INFO] [Transformer_Exp2] Epoch 4/5 | Step 1000/1094 | Loss: 0.1479
+[2026-09-19 00:56:00] [INFO] [Transformer_Exp2] Epoch 4/5 | Step 1094/1094 | Loss: 0.1477
+[2026-09-19 00:56:00] [INFO] [Transformer_Exp2] Epoch 4 complete in 24.51s | Avg Loss: 0.1595
+[2026-09-19 00:56:05] [INFO] [Transformer_Exp2] Epoch 5/5 | Step 200/1094 | Loss: 0.1772
+[2026-09-19 00:56:09] [INFO] [Transformer_Exp2] Epoch 5/5 | Step 400/1094 | Loss: 0.1565
+[2026-09-19 00:56:14] [INFO] [Transformer_Exp2] Epoch 5/5 | Step 600/1094 | Loss: 0.1500
+[2026-09-19 00:56:18] [INFO] [Transformer_Exp2] Epoch 5/5 | Step 800/1094 | Loss: 0.1695
+[2026-09-19 00:56:23] [INFO] [Transformer_Exp2] Epoch 5/5 | Step 1000/1094 | Loss: 0.1511
+[2026-09-19 00:56:25] [INFO] [Transformer_Exp2] Epoch 5/5 | Step 1094/1094 | Loss: 0.1675
+[2026-09-19 00:56:25] [INFO] [Transformer_Exp2] Epoch 5 complete in 24.56s | Avg Loss: 0.1494
+[2026-09-19 00:56:25] [INFO] Saved weights to task2_sentiment/Omkar_Rajale/checkpoints/Transformer_Exp2.pt
