@@ -1,0 +1,9 @@
+correctness_pattern,number_of_examples,percentage
+all_correct,35313,92.92894736842105
+all_wrong,1070,2.8157894736842106
+gru_and_bilstm_correct,383,1.0078947368421052
+bilstm_and_attention_correct,294,0.7736842105263159
+gru_and_attention_correct,280,0.7368421052631579
+only_bilstm_correct,236,0.6210526315789474
+only_attention_correct,234,0.6157894736842106
+only_gru_correct,190,0.5
