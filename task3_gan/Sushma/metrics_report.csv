@@ -1,0 +1,14 @@
+run,direction,metric,value,checkpoint
+feature_matching_ema_official,photo_to_monet,FID,95.884,best_cycle_checkpoint
+feature_matching_ema_official,photo_to_monet,MiFID,0.4033,best_cycle_checkpoint
+feature_matching_ema_official,monet_to_photo,FID,99.115,best_cycle_checkpoint
+feature_matching_ema_official,monet_to_photo,MiFID,0.4203,best_cycle_checkpoint
+feature_matching_ema_official,average,FID,97.4991,best_cycle_checkpoint
+feature_matching_ema_official,average,MiFID,0.4118,best_cycle_checkpoint
+diffaug_ema_ep085,photo_to_monet,FID,93.556,checkpoints/generators_epoch_085.pt
+diffaug_ema_ep085,monet_to_photo,FID,98.460,checkpoints/generators_epoch_085.pt
+diffaug_ema_ep085,average,FID,96.008,checkpoints/generators_epoch_085.pt
+diffaug_ema_ep085,average,MiFID,0.4067,checkpoints/generators_epoch_085.pt
+feature_matching_ema,train,param_count,29432712,best_cycle_checkpoint
+feature_matching_ema,train,peak_memory_gb_late,4.90,best_cycle_checkpoint
+feature_matching_ema,train,nan_count,0,best_cycle_checkpoint

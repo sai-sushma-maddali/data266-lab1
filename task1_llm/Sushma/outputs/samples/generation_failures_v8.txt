@@ -1,0 +1,15 @@
+# Sushma Task 1 sample generations / failure snippets (v8)
+# Source: Task_1_GPT_Style_LLM_from_Scratch-v8 notebook outputs
+
+[Case1_repetition_bow_loop]
+She opened the box and saw a big bow. It was a shiny red bow.
+... She put the bow in the bow. She said, "This is a special bow. It is a special bow.
+It is a special bow. It is a special bow."
+
+[Case2_abrupt_character_T0.2]
+Nora found a tiny door behind the bookshelf and started to read.
+She was so excited to see what was inside the bookshelf.
+Suddenly, she heard a voice behind her. It was a little girl who was crying.
+
+[Case3_truncation_topic_shift]
+... Then they both started t
