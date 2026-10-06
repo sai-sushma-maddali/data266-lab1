@@ -1,0 +1,406 @@
+2026-09-30 18:55:47,223 - INFO - Starting new CycleGAN experiment
+2026-09-30 18:55:47,224 - INFO - Experiment: task3_gan_diffaug_ema
+2026-09-30 18:55:47,224 - INFO - Random seed: 5775
+2026-09-30 18:55:47,225 - INFO - Device: cuda
+2026-09-30 18:55:47,225 - INFO - Shared data directory: /app/task3_gan/data
+2026-09-30 18:55:47,226 - INFO - Experiment directory: /app/task3_gan_diffaug_ema
+2026-09-30 18:55:47,260 - INFO - GPU: NVIDIA GeForce RTX 5090
+2026-09-30 18:55:47,260 - INFO - GPU memory: 31.84 GB
+2026-09-30 18:55:48,343 - INFO - Full training photos: 7038
+2026-09-30 18:55:48,346 - INFO - Full training Monet images: 300
+2026-09-30 18:55:48,361 - INFO - Monitoring photos: 703
+2026-09-30 18:55:48,362 - INFO - Monitoring Monet images: 30
+2026-09-30 18:55:48,625 - INFO - Domain A images: 7038
+2026-09-30 18:55:48,626 - INFO - Domain B images: 300
+2026-09-30 18:55:48,631 - INFO - Training batches: 1760
+2026-09-30 18:55:48,686 - INFO - Domain A batch shape: torch.Size([4, 3, 256, 256])
+2026-09-30 18:55:48,688 - INFO - Domain B batch shape: torch.Size([4, 3, 256, 256])
+2026-09-30 18:55:48,955 - INFO - G_AB parameters: 11,951,619
+2026-09-30 18:55:48,956 - INFO - G_BA parameters: 11,951,619
+2026-09-30 18:55:49,621 - INFO - Generator input shape: torch.Size([1, 3, 256, 256])
+2026-09-30 18:55:49,622 - INFO - Generator output shape: torch.Size([1, 3, 256, 256])
+2026-09-30 18:55:49,671 - INFO - D_A parameters: 2,764,737
+2026-09-30 18:55:49,672 - INFO - D_B parameters: 2,764,737
+2026-09-30 18:55:49,777 - INFO - D_A output shape: torch.Size([1, 1, 30, 30])
+2026-09-30 18:55:49,778 - INFO - D_B output shape: torch.Size([1, 1, 30, 30])
+2026-09-30 18:55:49,817 - INFO - Model weights initialized.
+2026-09-30 18:55:49,851 - INFO - Learning rate: 0.0002
+2026-09-30 18:55:49,852 - INFO - Cycle loss weight: 7.5
+2026-09-30 18:55:49,852 - INFO - Identity loss weight: 1.0
+2026-09-30 18:55:49,852 - INFO - Total trainable parameters: 29,432,712
+2026-09-30 18:55:49,860 - INFO - Image replay buffers created with size 50.
+2026-09-30 18:59:11,420 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_001.png
+2026-09-30 18:59:12,317 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.186746
+2026-09-30 18:59:14,206 - INFO - Latest checkpoint saved after epoch 1.
+2026-09-30 18:59:14,209 - INFO - Epoch 1/80 | G: 4.6575 | D: 0.5614 | Cycle A: 0.2361 | Cycle B: 0.2213 | EMA val cycle: 0.1867 | LR: 0.0002000 | Train time: 196.5s | Epoch time: 201.2s | Images/sec: 71.65 | Peak memory: 8.98 GB | NaNs: 0
+2026-09-30 19:02:35,215 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_002.png
+2026-09-30 19:02:36,170 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.153268
+2026-09-30 19:02:38,264 - INFO - Latest checkpoint saved after epoch 2.
+2026-09-30 19:02:38,265 - INFO - Epoch 2/80 | G: 3.7793 | D: 0.4815 | Cycle A: 0.1813 | Cycle B: 0.1758 | EMA val cycle: 0.1533 | LR: 0.0002000 | Train time: 194.6s | Epoch time: 201.0s | Images/sec: 72.34 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:05:56,714 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_003.png
+2026-09-30 19:05:57,806 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.134880
+2026-09-30 19:06:00,073 - INFO - Latest checkpoint saved after epoch 3.
+2026-09-30 19:06:00,075 - INFO - Epoch 3/80 | G: 3.4078 | D: 0.4819 | Cycle A: 0.1596 | Cycle B: 0.1546 | EMA val cycle: 0.1349 | LR: 0.0002000 | Train time: 194.3s | Epoch time: 198.5s | Images/sec: 72.44 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:09:18,871 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_004.png
+2026-09-30 19:09:19,886 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.124437
+2026-09-30 19:09:22,065 - INFO - Latest checkpoint saved after epoch 4.
+2026-09-30 19:09:22,067 - INFO - Epoch 4/80 | G: 3.2120 | D: 0.4743 | Cycle A: 0.1489 | Cycle B: 0.1404 | EMA val cycle: 0.1244 | LR: 0.0002000 | Train time: 194.8s | Epoch time: 198.8s | Images/sec: 72.26 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:12:41,335 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_005.png
+2026-09-30 19:12:42,527 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.116906
+2026-09-30 19:12:43,501 - INFO - EMA generator checkpoint saved: generators_epoch_005.pt, ema_validation_cycle_loss=0.116906
+2026-09-30 19:12:45,975 - INFO - Latest checkpoint saved after epoch 5.
+2026-09-30 19:12:45,976 - INFO - Epoch 5/80 | G: 3.0344 | D: 0.4646 | Cycle A: 0.1400 | Cycle B: 0.1274 | EMA val cycle: 0.1169 | LR: 0.0002000 | Train time: 194.8s | Epoch time: 199.3s | Images/sec: 72.26 | Peak memory: 4.89 GB | NaNs: 0
+2026-09-30 19:16:04,318 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_006.png
+2026-09-30 19:16:05,383 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.111316
+2026-09-30 19:16:07,585 - INFO - Latest checkpoint saved after epoch 6.
+2026-09-30 19:16:07,586 - INFO - Epoch 6/80 | G: 2.9325 | D: 0.4580 | Cycle A: 0.1345 | Cycle B: 0.1181 | EMA val cycle: 0.1113 | LR: 0.0002000 | Train time: 193.8s | Epoch time: 198.4s | Images/sec: 72.64 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:19:25,286 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_007.png
+2026-09-30 19:19:26,491 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.107887
+2026-09-30 19:19:28,970 - INFO - Latest checkpoint saved after epoch 7.
+2026-09-30 19:19:28,974 - INFO - Epoch 7/80 | G: 2.8534 | D: 0.4504 | Cycle A: 0.1306 | Cycle B: 0.1122 | EMA val cycle: 0.1079 | LR: 0.0002000 | Train time: 193.5s | Epoch time: 197.7s | Images/sec: 72.76 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:22:47,213 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_008.png
+2026-09-30 19:22:48,349 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.103263
+2026-09-30 19:22:51,195 - INFO - Latest checkpoint saved after epoch 8.
+2026-09-30 19:22:51,197 - INFO - Epoch 8/80 | G: 2.7656 | D: 0.4484 | Cycle A: 0.1262 | Cycle B: 0.1062 | EMA val cycle: 0.1033 | LR: 0.0002000 | Train time: 194.2s | Epoch time: 198.2s | Images/sec: 72.48 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:26:09,305 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_009.png
+2026-09-30 19:26:10,364 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.099917
+2026-09-30 19:26:12,629 - INFO - Latest checkpoint saved after epoch 9.
+2026-09-30 19:26:12,630 - INFO - Epoch 9/80 | G: 2.7088 | D: 0.4429 | Cycle A: 0.1230 | Cycle B: 0.1020 | EMA val cycle: 0.0999 | LR: 0.0002000 | Train time: 194.0s | Epoch time: 198.1s | Images/sec: 72.57 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:29:30,634 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_010.png
+2026-09-30 19:29:31,964 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.097855
+2026-09-30 19:29:33,067 - INFO - EMA generator checkpoint saved: generators_epoch_010.pt, ema_validation_cycle_loss=0.097855
+2026-09-30 19:29:35,484 - INFO - Latest checkpoint saved after epoch 10.
+2026-09-30 19:29:35,486 - INFO - Epoch 10/80 | G: 2.7276 | D: 0.4230 | Cycle A: 0.1212 | Cycle B: 0.1008 | EMA val cycle: 0.0979 | LR: 0.0002000 | Train time: 193.7s | Epoch time: 198.0s | Images/sec: 72.65 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:32:53,619 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_011.png
+2026-09-30 19:32:54,652 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.095686
+2026-09-30 19:32:56,960 - INFO - Latest checkpoint saved after epoch 11.
+2026-09-30 19:32:56,961 - INFO - Epoch 11/80 | G: 2.7041 | D: 0.4163 | Cycle A: 0.1190 | Cycle B: 0.0976 | EMA val cycle: 0.0957 | LR: 0.0002000 | Train time: 194.0s | Epoch time: 198.1s | Images/sec: 72.57 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:36:15,358 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_012.png
+2026-09-30 19:36:16,519 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.093752
+2026-09-30 19:36:18,738 - INFO - Latest checkpoint saved after epoch 12.
+2026-09-30 19:36:18,740 - INFO - Epoch 12/80 | G: 2.6459 | D: 0.4164 | Cycle A: 0.1169 | Cycle B: 0.0943 | EMA val cycle: 0.0938 | LR: 0.0002000 | Train time: 194.1s | Epoch time: 198.4s | Images/sec: 72.53 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:39:37,312 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_013.png
+2026-09-30 19:39:38,397 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.092204
+2026-09-30 19:39:40,676 - INFO - Latest checkpoint saved after epoch 13.
+2026-09-30 19:39:40,677 - INFO - Epoch 13/80 | G: 2.5933 | D: 0.4173 | Cycle A: 0.1141 | Cycle B: 0.0917 | EMA val cycle: 0.0922 | LR: 0.0002000 | Train time: 194.3s | Epoch time: 198.6s | Images/sec: 72.46 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:42:58,418 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_014.png
+2026-09-30 19:42:59,570 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.090132
+2026-09-30 19:43:01,932 - INFO - Latest checkpoint saved after epoch 14.
+2026-09-30 19:43:01,934 - INFO - Epoch 14/80 | G: 2.5664 | D: 0.4135 | Cycle A: 0.1124 | Cycle B: 0.0897 | EMA val cycle: 0.0901 | LR: 0.0002000 | Train time: 193.8s | Epoch time: 197.7s | Images/sec: 72.64 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:46:24,094 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_015.png
+2026-09-30 19:46:25,170 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.089714
+2026-09-30 19:46:26,082 - INFO - EMA generator checkpoint saved: generators_epoch_015.pt, ema_validation_cycle_loss=0.089714
+2026-09-30 19:46:28,430 - INFO - Latest checkpoint saved after epoch 15.
+2026-09-30 19:46:28,432 - INFO - Epoch 15/80 | G: 2.5771 | D: 0.4087 | Cycle A: 0.1130 | Cycle B: 0.0898 | EMA val cycle: 0.0897 | LR: 0.0002000 | Train time: 196.0s | Epoch time: 202.2s | Images/sec: 71.83 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:49:48,766 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_016.png
+2026-09-30 19:49:49,823 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.087252
+2026-09-30 19:49:52,202 - INFO - Latest checkpoint saved after epoch 16.
+2026-09-30 19:49:52,204 - INFO - Epoch 16/80 | G: 2.5005 | D: 0.4111 | Cycle A: 0.1088 | Cycle B: 0.0859 | EMA val cycle: 0.0873 | LR: 0.0002000 | Train time: 196.2s | Epoch time: 200.3s | Images/sec: 71.73 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:53:11,432 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_017.png
+2026-09-30 19:53:12,467 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.085739
+2026-09-30 19:53:14,604 - INFO - Latest checkpoint saved after epoch 17.
+2026-09-30 19:53:14,608 - INFO - Epoch 17/80 | G: 2.4588 | D: 0.4156 | Cycle A: 0.1070 | Cycle B: 0.0841 | EMA val cycle: 0.0857 | LR: 0.0002000 | Train time: 195.1s | Epoch time: 199.2s | Images/sec: 72.14 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:56:34,413 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_018.png
+2026-09-30 19:56:35,473 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.083983
+2026-09-30 19:56:37,727 - INFO - Latest checkpoint saved after epoch 18.
+2026-09-30 19:56:37,729 - INFO - Epoch 18/80 | G: 2.4196 | D: 0.4175 | Cycle A: 0.1055 | Cycle B: 0.0821 | EMA val cycle: 0.0840 | LR: 0.0002000 | Train time: 195.7s | Epoch time: 199.8s | Images/sec: 71.93 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 19:59:59,648 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_019.png
+2026-09-30 20:00:00,773 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.083476
+2026-09-30 20:00:03,312 - INFO - Latest checkpoint saved after epoch 19.
+2026-09-30 20:00:03,313 - INFO - Epoch 19/80 | G: 2.4381 | D: 0.4122 | Cycle A: 0.1054 | Cycle B: 0.0830 | EMA val cycle: 0.0835 | LR: 0.0002000 | Train time: 195.2s | Epoch time: 201.9s | Images/sec: 72.12 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:03:23,282 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_020.png
+2026-09-30 20:03:24,378 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.081746
+2026-09-30 20:03:25,215 - INFO - EMA generator checkpoint saved: generators_epoch_020.pt, ema_validation_cycle_loss=0.081746
+2026-09-30 20:03:27,455 - INFO - Latest checkpoint saved after epoch 20.
+2026-09-30 20:03:27,456 - INFO - Epoch 20/80 | G: 2.3861 | D: 0.4119 | Cycle A: 0.1032 | Cycle B: 0.0795 | EMA val cycle: 0.0817 | LR: 0.0002000 | Train time: 195.4s | Epoch time: 200.0s | Images/sec: 72.03 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:06:46,837 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_021.png
+2026-09-30 20:06:47,929 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.081678
+2026-09-30 20:06:50,165 - INFO - Latest checkpoint saved after epoch 21.
+2026-09-30 20:06:50,167 - INFO - Epoch 21/80 | G: 2.4234 | D: 0.4014 | Cycle A: 0.1041 | Cycle B: 0.0806 | EMA val cycle: 0.0817 | LR: 0.0002000 | Train time: 195.4s | Epoch time: 199.4s | Images/sec: 72.04 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:10:09,888 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_022.png
+2026-09-30 20:10:11,103 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.080997
+2026-09-30 20:10:13,463 - INFO - Latest checkpoint saved after epoch 22.
+2026-09-30 20:10:13,468 - INFO - Epoch 22/80 | G: 2.4001 | D: 0.3984 | Cycle A: 0.1021 | Cycle B: 0.0773 | EMA val cycle: 0.0810 | LR: 0.0002000 | Train time: 195.4s | Epoch time: 199.7s | Images/sec: 72.05 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:13:33,418 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_023.png
+2026-09-30 20:13:34,566 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.079953
+2026-09-30 20:13:36,855 - INFO - Latest checkpoint saved after epoch 23.
+2026-09-30 20:13:36,856 - INFO - Epoch 23/80 | G: 2.3855 | D: 0.3967 | Cycle A: 0.1013 | Cycle B: 0.0770 | EMA val cycle: 0.0800 | LR: 0.0002000 | Train time: 195.9s | Epoch time: 200.0s | Images/sec: 71.84 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:16:56,965 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_024.png
+2026-09-30 20:16:59,363 - INFO - Latest checkpoint saved after epoch 24.
+2026-09-30 20:16:59,365 - INFO - Epoch 24/80 | G: 2.3419 | D: 0.4058 | Cycle A: 0.0997 | Cycle B: 0.0758 | EMA val cycle: 0.0802 | LR: 0.0002000 | Train time: 195.8s | Epoch time: 200.1s | Images/sec: 71.89 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:20:24,427 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_025.png
+2026-09-30 20:20:25,416 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.078919
+2026-09-30 20:20:26,278 - INFO - EMA generator checkpoint saved: generators_epoch_025.pt, ema_validation_cycle_loss=0.078919
+2026-09-30 20:20:28,800 - INFO - Latest checkpoint saved after epoch 25.
+2026-09-30 20:20:28,802 - INFO - Epoch 25/80 | G: 2.3495 | D: 0.3979 | Cycle A: 0.0986 | Cycle B: 0.0757 | EMA val cycle: 0.0789 | LR: 0.0002000 | Train time: 196.9s | Epoch time: 205.1s | Images/sec: 71.50 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:23:52,939 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_026.png
+2026-09-30 20:23:53,993 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.078376
+2026-09-30 20:23:56,263 - INFO - Latest checkpoint saved after epoch 26.
+2026-09-30 20:23:56,265 - INFO - Epoch 26/80 | G: 2.3364 | D: 0.3950 | Cycle A: 0.0978 | Cycle B: 0.0742 | EMA val cycle: 0.0784 | LR: 0.0002000 | Train time: 196.7s | Epoch time: 204.1s | Images/sec: 71.58 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:27:20,670 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_027.png
+2026-09-30 20:27:21,715 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.077971
+2026-09-30 20:27:24,146 - INFO - Latest checkpoint saved after epoch 27.
+2026-09-30 20:27:24,149 - INFO - Epoch 27/80 | G: 2.3282 | D: 0.3916 | Cycle A: 0.0973 | Cycle B: 0.0731 | EMA val cycle: 0.0780 | LR: 0.0002000 | Train time: 197.3s | Epoch time: 204.4s | Images/sec: 71.35 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:30:45,842 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_028.png
+2026-09-30 20:30:47,005 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.077288
+2026-09-30 20:30:49,540 - INFO - Latest checkpoint saved after epoch 28.
+2026-09-30 20:30:49,550 - INFO - Epoch 28/80 | G: 2.3335 | D: 0.3860 | Cycle A: 0.0967 | Cycle B: 0.0727 | EMA val cycle: 0.0773 | LR: 0.0002000 | Train time: 197.6s | Epoch time: 201.7s | Images/sec: 71.25 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:34:11,810 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_029.png
+2026-09-30 20:34:12,993 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.076632
+2026-09-30 20:34:15,604 - INFO - Latest checkpoint saved after epoch 29.
+2026-09-30 20:34:15,609 - INFO - Epoch 29/80 | G: 2.3354 | D: 0.3812 | Cycle A: 0.0957 | Cycle B: 0.0722 | EMA val cycle: 0.0766 | LR: 0.0002000 | Train time: 197.9s | Epoch time: 202.3s | Images/sec: 71.14 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:37:37,615 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_030.png
+2026-09-30 20:37:38,518 - INFO - EMA generator checkpoint saved: generators_epoch_030.pt, ema_validation_cycle_loss=0.076654
+2026-09-30 20:37:40,849 - INFO - Latest checkpoint saved after epoch 30.
+2026-09-30 20:37:40,851 - INFO - Epoch 30/80 | G: 2.3497 | D: 0.3736 | Cycle A: 0.0955 | Cycle B: 0.0722 | EMA val cycle: 0.0767 | LR: 0.0002000 | Train time: 197.7s | Epoch time: 202.0s | Images/sec: 71.20 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:41:02,517 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_031.png
+2026-09-30 20:41:03,728 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.076066
+2026-09-30 20:41:06,135 - INFO - Latest checkpoint saved after epoch 31.
+2026-09-30 20:41:06,138 - INFO - Epoch 31/80 | G: 2.3412 | D: 0.3722 | Cycle A: 0.0949 | Cycle B: 0.0713 | EMA val cycle: 0.0761 | LR: 0.0002000 | Train time: 197.5s | Epoch time: 201.7s | Images/sec: 71.28 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:44:27,523 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_032.png
+2026-09-30 20:44:29,877 - INFO - Latest checkpoint saved after epoch 32.
+2026-09-30 20:44:29,882 - INFO - Epoch 32/80 | G: 2.3252 | D: 0.3728 | Cycle A: 0.0944 | Cycle B: 0.0705 | EMA val cycle: 0.0763 | LR: 0.0002000 | Train time: 197.2s | Epoch time: 201.4s | Images/sec: 71.37 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:47:53,370 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_033.png
+2026-09-30 20:47:54,477 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.075476
+2026-09-30 20:47:56,899 - INFO - Latest checkpoint saved after epoch 33.
+2026-09-30 20:47:56,902 - INFO - Epoch 33/80 | G: 2.2891 | D: 0.3799 | Cycle A: 0.0935 | Cycle B: 0.0698 | EMA val cycle: 0.0755 | LR: 0.0002000 | Train time: 197.6s | Epoch time: 203.5s | Images/sec: 71.22 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:51:18,336 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_034.png
+2026-09-30 20:51:19,377 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.074129
+2026-09-30 20:51:21,633 - INFO - Latest checkpoint saved after epoch 34.
+2026-09-30 20:51:21,635 - INFO - Epoch 34/80 | G: 2.2813 | D: 0.3780 | Cycle A: 0.0925 | Cycle B: 0.0690 | EMA val cycle: 0.0741 | LR: 0.0002000 | Train time: 197.4s | Epoch time: 201.4s | Images/sec: 71.32 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:54:43,352 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_035.png
+2026-09-30 20:54:44,398 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.073772
+2026-09-30 20:54:45,188 - INFO - EMA generator checkpoint saved: generators_epoch_035.pt, ema_validation_cycle_loss=0.073772
+2026-09-30 20:54:47,352 - INFO - Latest checkpoint saved after epoch 35.
+2026-09-30 20:54:47,356 - INFO - Epoch 35/80 | G: 2.2640 | D: 0.3775 | Cycle A: 0.0921 | Cycle B: 0.0683 | EMA val cycle: 0.0738 | LR: 0.0002000 | Train time: 197.4s | Epoch time: 201.7s | Images/sec: 71.31 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 20:58:12,315 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_036.png
+2026-09-30 20:58:14,368 - INFO - Latest checkpoint saved after epoch 36.
+2026-09-30 20:58:14,370 - INFO - Epoch 36/80 | G: 2.2992 | D: 0.3714 | Cycle A: 0.0923 | Cycle B: 0.0695 | EMA val cycle: 0.0740 | LR: 0.0002000 | Train time: 198.9s | Epoch time: 205.0s | Images/sec: 70.77 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:01:39,041 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_037.png
+2026-09-30 21:01:40,172 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.073182
+2026-09-30 21:01:42,504 - INFO - Latest checkpoint saved after epoch 37.
+2026-09-30 21:01:42,509 - INFO - Epoch 37/80 | G: 2.2835 | D: 0.3682 | Cycle A: 0.0913 | Cycle B: 0.0681 | EMA val cycle: 0.0732 | LR: 0.0002000 | Train time: 198.7s | Epoch time: 204.7s | Images/sec: 70.84 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:05:08,333 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_038.png
+2026-09-30 21:05:10,368 - INFO - Latest checkpoint saved after epoch 38.
+2026-09-30 21:05:10,372 - INFO - Epoch 38/80 | G: 2.2962 | D: 0.3695 | Cycle A: 0.0919 | Cycle B: 0.0683 | EMA val cycle: 0.0737 | LR: 0.0002000 | Train time: 201.7s | Epoch time: 205.8s | Images/sec: 69.78 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:08:34,234 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_039.png
+2026-09-30 21:08:35,386 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.073090
+2026-09-30 21:08:37,619 - INFO - Latest checkpoint saved after epoch 39.
+2026-09-30 21:08:37,622 - INFO - Epoch 39/80 | G: 2.2684 | D: 0.3691 | Cycle A: 0.0905 | Cycle B: 0.0674 | EMA val cycle: 0.0731 | LR: 0.0002000 | Train time: 199.7s | Epoch time: 203.9s | Images/sec: 70.50 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:12:01,894 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_040.png
+2026-09-30 21:12:03,023 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.072899
+2026-09-30 21:12:03,862 - INFO - EMA generator checkpoint saved: generators_epoch_040.pt, ema_validation_cycle_loss=0.072899
+2026-09-30 21:12:06,131 - INFO - Latest checkpoint saved after epoch 40.
+2026-09-30 21:12:06,134 - INFO - Epoch 40/80 | G: 2.2712 | D: 0.3644 | Cycle A: 0.0900 | Cycle B: 0.0671 | EMA val cycle: 0.0729 | LR: 0.0002000 | Train time: 200.0s | Epoch time: 204.3s | Images/sec: 70.38 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:15:31,792 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_041.png
+2026-09-30 21:15:32,938 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.072511
+2026-09-30 21:15:35,084 - INFO - Latest checkpoint saved after epoch 41.
+2026-09-30 21:15:35,087 - INFO - Epoch 41/80 | G: 2.2730 | D: 0.3618 | Cycle A: 0.0898 | Cycle B: 0.0664 | EMA val cycle: 0.0725 | LR: 0.0002000 | Train time: 199.6s | Epoch time: 205.7s | Images/sec: 70.52 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:18:57,367 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_042.png
+2026-09-30 21:18:59,866 - INFO - Latest checkpoint saved after epoch 42.
+2026-09-30 21:18:59,870 - INFO - Epoch 42/80 | G: 2.2752 | D: 0.3551 | Cycle A: 0.0891 | Cycle B: 0.0664 | EMA val cycle: 0.0728 | LR: 0.0001950 | Train time: 198.2s | Epoch time: 202.3s | Images/sec: 71.03 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:22:24,113 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_043.png
+2026-09-30 21:22:25,247 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.071549
+2026-09-30 21:22:27,459 - INFO - Latest checkpoint saved after epoch 43.
+2026-09-30 21:22:27,461 - INFO - Epoch 43/80 | G: 2.2517 | D: 0.3545 | Cycle A: 0.0876 | Cycle B: 0.0655 | EMA val cycle: 0.0715 | LR: 0.0001900 | Train time: 199.3s | Epoch time: 204.2s | Images/sec: 70.64 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:25:50,583 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_044.png
+2026-09-30 21:25:52,847 - INFO - Latest checkpoint saved after epoch 44.
+2026-09-30 21:25:52,850 - INFO - Epoch 44/80 | G: 2.2765 | D: 0.3475 | Cycle A: 0.0879 | Cycle B: 0.0663 | EMA val cycle: 0.0721 | LR: 0.0001850 | Train time: 198.9s | Epoch time: 203.1s | Images/sec: 70.78 | Peak memory: 4.89 GB | NaNs: 0
+2026-09-30 21:29:15,953 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_045.png
+2026-09-30 21:29:17,067 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.071481
+2026-09-30 21:29:17,920 - INFO - EMA generator checkpoint saved: generators_epoch_045.pt, ema_validation_cycle_loss=0.071481
+2026-09-30 21:29:20,117 - INFO - Latest checkpoint saved after epoch 45.
+2026-09-30 21:29:20,121 - INFO - Epoch 45/80 | G: 2.2692 | D: 0.3475 | Cycle A: 0.0865 | Cycle B: 0.0651 | EMA val cycle: 0.0715 | LR: 0.0001800 | Train time: 198.6s | Epoch time: 203.1s | Images/sec: 70.87 | Peak memory: 4.87 GB | NaNs: 0
+2026-09-30 21:32:44,574 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_046.png
+2026-09-30 21:32:47,109 - INFO - Latest checkpoint saved after epoch 46.
+2026-09-30 21:32:47,113 - INFO - Epoch 46/80 | G: 2.2362 | D: 0.3462 | Cycle A: 0.0853 | Cycle B: 0.0633 | EMA val cycle: 0.0717 | LR: 0.0001750 | Train time: 199.9s | Epoch time: 204.5s | Images/sec: 70.40 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:36:13,775 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_047.png
+2026-09-30 21:36:16,481 - INFO - Latest checkpoint saved after epoch 47.
+2026-09-30 21:36:16,489 - INFO - Epoch 47/80 | G: 2.2529 | D: 0.3405 | Cycle A: 0.0849 | Cycle B: 0.0636 | EMA val cycle: 0.0716 | LR: 0.0001700 | Train time: 202.4s | Epoch time: 206.7s | Images/sec: 69.56 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:39:42,144 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_048.png
+2026-09-30 21:39:43,241 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.070983
+2026-09-30 21:39:45,421 - INFO - Latest checkpoint saved after epoch 48.
+2026-09-30 21:39:45,427 - INFO - Epoch 48/80 | G: 2.2472 | D: 0.3360 | Cycle A: 0.0839 | Cycle B: 0.0631 | EMA val cycle: 0.0710 | LR: 0.0001650 | Train time: 201.5s | Epoch time: 205.6s | Images/sec: 69.84 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:43:10,837 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_049.png
+2026-09-30 21:43:13,078 - INFO - Latest checkpoint saved after epoch 49.
+2026-09-30 21:43:13,081 - INFO - Epoch 49/80 | G: 2.2331 | D: 0.3352 | Cycle A: 0.0835 | Cycle B: 0.0623 | EMA val cycle: 0.0711 | LR: 0.0001600 | Train time: 201.1s | Epoch time: 205.4s | Images/sec: 70.01 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:46:45,415 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_050.png
+2026-09-30 21:46:46,295 - INFO - EMA generator checkpoint saved: generators_epoch_050.pt, ema_validation_cycle_loss=0.071345
+2026-09-30 21:46:48,501 - INFO - Latest checkpoint saved after epoch 50.
+2026-09-30 21:46:48,504 - INFO - Epoch 50/80 | G: 2.2643 | D: 0.3264 | Cycle A: 0.0836 | Cycle B: 0.0630 | EMA val cycle: 0.0713 | LR: 0.0001550 | Train time: 204.9s | Epoch time: 212.3s | Images/sec: 68.69 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:50:14,137 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_051.png
+2026-09-30 21:50:15,220 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.070784
+2026-09-30 21:50:17,483 - INFO - Latest checkpoint saved after epoch 51.
+2026-09-30 21:50:17,502 - INFO - Epoch 51/80 | G: 2.2399 | D: 0.3275 | Cycle A: 0.0818 | Cycle B: 0.0613 | EMA val cycle: 0.0708 | LR: 0.0001500 | Train time: 201.6s | Epoch time: 205.7s | Images/sec: 69.83 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:54:03,164 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_052.png
+2026-09-30 21:54:05,462 - INFO - Latest checkpoint saved after epoch 52.
+2026-09-30 21:54:05,467 - INFO - Epoch 52/80 | G: 2.2741 | D: 0.3163 | Cycle A: 0.0816 | Cycle B: 0.0620 | EMA val cycle: 0.0711 | LR: 0.0001450 | Train time: 221.3s | Epoch time: 225.7s | Images/sec: 63.60 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 21:57:50,286 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_053.png
+2026-09-30 21:57:52,448 - INFO - Latest checkpoint saved after epoch 53.
+2026-09-30 21:57:52,466 - INFO - Epoch 53/80 | G: 2.2287 | D: 0.3181 | Cycle A: 0.0802 | Cycle B: 0.0603 | EMA val cycle: 0.0708 | LR: 0.0001400 | Train time: 220.5s | Epoch time: 224.8s | Images/sec: 63.83 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:01:59,366 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_054.png
+2026-09-30 22:02:01,722 - INFO - Latest checkpoint saved after epoch 54.
+2026-09-30 22:02:01,741 - INFO - Epoch 54/80 | G: 2.2361 | D: 0.3200 | Cycle A: 0.0804 | Cycle B: 0.0610 | EMA val cycle: 0.0709 | LR: 0.0001350 | Train time: 242.6s | Epoch time: 246.9s | Images/sec: 58.01 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:06:11,018 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_055.png
+2026-09-30 22:06:12,050 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.070744
+2026-09-30 22:06:12,960 - INFO - EMA generator checkpoint saved: generators_epoch_055.pt, ema_validation_cycle_loss=0.070744
+2026-09-30 22:06:15,300 - INFO - Latest checkpoint saved after epoch 55.
+2026-09-30 22:06:15,315 - INFO - Epoch 55/80 | G: 2.2210 | D: 0.3170 | Cycle A: 0.0793 | Cycle B: 0.0599 | EMA val cycle: 0.0707 | LR: 0.0001300 | Train time: 244.8s | Epoch time: 249.3s | Images/sec: 57.50 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:10:24,473 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_056.png
+2026-09-30 22:10:26,758 - INFO - Latest checkpoint saved after epoch 56.
+2026-09-30 22:10:26,774 - INFO - Epoch 56/80 | G: 2.2321 | D: 0.3098 | Cycle A: 0.0793 | Cycle B: 0.0599 | EMA val cycle: 0.0709 | LR: 0.0001250 | Train time: 245.0s | Epoch time: 249.2s | Images/sec: 57.46 | Peak memory: 4.87 GB | NaNs: 0
+2026-09-30 22:14:35,624 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_057.png
+2026-09-30 22:14:37,869 - INFO - Latest checkpoint saved after epoch 57.
+2026-09-30 22:14:37,886 - INFO - Epoch 57/80 | G: 2.2372 | D: 0.3085 | Cycle A: 0.0781 | Cycle B: 0.0603 | EMA val cycle: 0.0708 | LR: 0.0001200 | Train time: 244.6s | Epoch time: 248.9s | Images/sec: 57.54 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:18:48,707 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_058.png
+2026-09-30 22:18:50,983 - INFO - Latest checkpoint saved after epoch 58.
+2026-09-30 22:18:50,988 - INFO - Epoch 58/80 | G: 2.3035 | D: 0.2950 | Cycle A: 0.0788 | Cycle B: 0.0616 | EMA val cycle: 0.0720 | LR: 0.0001150 | Train time: 246.5s | Epoch time: 250.8s | Images/sec: 57.10 | Peak memory: 4.89 GB | NaNs: 0
+2026-09-30 22:22:39,506 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_059.png
+2026-09-30 22:22:41,892 - INFO - Latest checkpoint saved after epoch 59.
+2026-09-30 22:22:41,896 - INFO - Epoch 59/80 | G: 2.2809 | D: 0.2937 | Cycle A: 0.0788 | Cycle B: 0.0607 | EMA val cycle: 0.0722 | LR: 0.0001100 | Train time: 224.5s | Epoch time: 228.5s | Images/sec: 62.71 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:26:31,204 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_060.png
+2026-09-30 22:26:32,147 - INFO - EMA generator checkpoint saved: generators_epoch_060.pt, ema_validation_cycle_loss=0.071484
+2026-09-30 22:26:34,369 - INFO - Latest checkpoint saved after epoch 60.
+2026-09-30 22:26:34,374 - INFO - Epoch 60/80 | G: 2.2850 | D: 0.2867 | Cycle A: 0.0772 | Cycle B: 0.0596 | EMA val cycle: 0.0715 | LR: 0.0001050 | Train time: 225.0s | Epoch time: 229.3s | Images/sec: 62.57 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:30:27,857 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_061.png
+2026-09-30 22:30:30,092 - INFO - Latest checkpoint saved after epoch 61.
+2026-09-30 22:30:30,108 - INFO - Epoch 61/80 | G: 2.2596 | D: 0.2886 | Cycle A: 0.0765 | Cycle B: 0.0586 | EMA val cycle: 0.0713 | LR: 0.0001000 | Train time: 229.1s | Epoch time: 233.5s | Images/sec: 61.43 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:34:46,760 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_062.png
+2026-09-30 22:34:49,153 - INFO - Latest checkpoint saved after epoch 62.
+2026-09-30 22:34:49,170 - INFO - Epoch 62/80 | G: 2.2863 | D: 0.2813 | Cycle A: 0.0756 | Cycle B: 0.0589 | EMA val cycle: 0.0710 | LR: 0.0000950 | Train time: 251.9s | Epoch time: 256.7s | Images/sec: 55.88 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:39:06,164 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_063.png
+2026-09-30 22:39:08,705 - INFO - Latest checkpoint saved after epoch 63.
+2026-09-30 22:39:08,723 - INFO - Epoch 63/80 | G: 2.2822 | D: 0.2801 | Cycle A: 0.0751 | Cycle B: 0.0590 | EMA val cycle: 0.0714 | LR: 0.0000900 | Train time: 252.6s | Epoch time: 257.0s | Images/sec: 55.73 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:43:26,328 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_064.png
+2026-09-30 22:43:28,612 - INFO - Latest checkpoint saved after epoch 64.
+2026-09-30 22:43:28,630 - INFO - Epoch 64/80 | G: 2.2484 | D: 0.2794 | Cycle A: 0.0739 | Cycle B: 0.0579 | EMA val cycle: 0.0708 | LR: 0.0000850 | Train time: 253.5s | Epoch time: 257.6s | Images/sec: 55.53 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:47:48,337 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_065.png
+2026-09-30 22:47:49,500 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.070530
+2026-09-30 22:47:50,346 - INFO - EMA generator checkpoint saved: generators_epoch_065.pt, ema_validation_cycle_loss=0.070530
+2026-09-30 22:47:52,862 - INFO - Latest checkpoint saved after epoch 65.
+2026-09-30 22:47:52,886 - INFO - Epoch 65/80 | G: 2.2445 | D: 0.2782 | Cycle A: 0.0729 | Cycle B: 0.0576 | EMA val cycle: 0.0705 | LR: 0.0000800 | Train time: 255.1s | Epoch time: 259.7s | Images/sec: 55.18 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:52:15,340 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_066.png
+2026-09-30 22:52:16,483 - INFO - EMA generator checkpoint saved: best_cycle_checkpoint.pt, ema_validation_cycle_loss=0.070311
+2026-09-30 22:52:19,044 - INFO - Latest checkpoint saved after epoch 66.
+2026-09-30 22:52:19,066 - INFO - Epoch 66/80 | G: 2.2485 | D: 0.2740 | Cycle A: 0.0722 | Cycle B: 0.0570 | EMA val cycle: 0.0703 | LR: 0.0000750 | Train time: 255.4s | Epoch time: 262.5s | Images/sec: 55.12 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 22:56:44,268 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_067.png
+2026-09-30 22:56:46,583 - INFO - Latest checkpoint saved after epoch 67.
+2026-09-30 22:56:46,608 - INFO - Epoch 67/80 | G: 2.2519 | D: 0.2754 | Cycle A: 0.0720 | Cycle B: 0.0574 | EMA val cycle: 0.0708 | LR: 0.0000700 | Train time: 260.3s | Epoch time: 265.2s | Images/sec: 54.08 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:01:11,166 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_068.png
+2026-09-30 23:01:13,237 - INFO - Latest checkpoint saved after epoch 68.
+2026-09-30 23:01:13,256 - INFO - Epoch 68/80 | G: 2.2325 | D: 0.2752 | Cycle A: 0.0710 | Cycle B: 0.0567 | EMA val cycle: 0.0707 | LR: 0.0000650 | Train time: 259.4s | Epoch time: 264.6s | Images/sec: 54.26 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:05:37,016 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_069.png
+2026-09-30 23:05:39,233 - INFO - Latest checkpoint saved after epoch 69.
+2026-09-30 23:05:39,253 - INFO - Epoch 69/80 | G: 2.2391 | D: 0.2713 | Cycle A: 0.0702 | Cycle B: 0.0571 | EMA val cycle: 0.0708 | LR: 0.0000600 | Train time: 259.7s | Epoch time: 263.8s | Images/sec: 54.21 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:10:03,807 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_070.png
+2026-09-30 23:10:04,610 - INFO - EMA generator checkpoint saved: generators_epoch_070.pt, ema_validation_cycle_loss=0.071136
+2026-09-30 23:10:06,829 - INFO - Latest checkpoint saved after epoch 70.
+2026-09-30 23:10:06,849 - INFO - Epoch 70/80 | G: 2.2357 | D: 0.2698 | Cycle A: 0.0699 | Cycle B: 0.0565 | EMA val cycle: 0.0711 | LR: 0.0000550 | Train time: 260.2s | Epoch time: 264.6s | Images/sec: 54.11 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:14:29,234 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_071.png
+2026-09-30 23:14:31,661 - INFO - Latest checkpoint saved after epoch 71.
+2026-09-30 23:14:31,681 - INFO - Epoch 71/80 | G: 2.2318 | D: 0.2663 | Cycle A: 0.0690 | Cycle B: 0.0565 | EMA val cycle: 0.0710 | LR: 0.0000500 | Train time: 258.4s | Epoch time: 262.4s | Images/sec: 54.47 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:18:55,628 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_072.png
+2026-09-30 23:18:57,946 - INFO - Latest checkpoint saved after epoch 72.
+2026-09-30 23:18:57,967 - INFO - Epoch 72/80 | G: 2.2323 | D: 0.2652 | Cycle A: 0.0684 | Cycle B: 0.0565 | EMA val cycle: 0.0713 | LR: 0.0000450 | Train time: 259.9s | Epoch time: 264.0s | Images/sec: 54.17 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:23:22,687 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_073.png
+2026-09-30 23:23:24,911 - INFO - Latest checkpoint saved after epoch 73.
+2026-09-30 23:23:24,932 - INFO - Epoch 73/80 | G: 2.2400 | D: 0.2625 | Cycle A: 0.0678 | Cycle B: 0.0564 | EMA val cycle: 0.0713 | LR: 0.0000400 | Train time: 260.4s | Epoch time: 264.7s | Images/sec: 54.05 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:27:51,069 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_074.png
+2026-09-30 23:27:53,233 - INFO - Latest checkpoint saved after epoch 74.
+2026-09-30 23:27:53,254 - INFO - Epoch 74/80 | G: 2.2424 | D: 0.2587 | Cycle A: 0.0674 | Cycle B: 0.0564 | EMA val cycle: 0.0714 | LR: 0.0000350 | Train time: 261.8s | Epoch time: 266.1s | Images/sec: 53.76 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:32:19,854 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_075.png
+2026-09-30 23:32:20,657 - INFO - EMA generator checkpoint saved: generators_epoch_075.pt, ema_validation_cycle_loss=0.071365
+2026-09-30 23:32:22,808 - INFO - Latest checkpoint saved after epoch 75.
+2026-09-30 23:32:22,829 - INFO - Epoch 75/80 | G: 2.2332 | D: 0.2582 | Cycle A: 0.0669 | Cycle B: 0.0559 | EMA val cycle: 0.0714 | LR: 0.0000300 | Train time: 262.1s | Epoch time: 266.6s | Images/sec: 53.70 | Peak memory: 4.87 GB | NaNs: 0
+2026-09-30 23:36:50,400 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_076.png
+2026-09-30 23:36:52,600 - INFO - Latest checkpoint saved after epoch 76.
+2026-09-30 23:36:52,621 - INFO - Epoch 76/80 | G: 2.2446 | D: 0.2531 | Cycle A: 0.0662 | Cycle B: 0.0560 | EMA val cycle: 0.0716 | LR: 0.0000250 | Train time: 263.4s | Epoch time: 267.6s | Images/sec: 53.45 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:41:21,519 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_077.png
+2026-09-30 23:41:23,687 - INFO - Latest checkpoint saved after epoch 77.
+2026-09-30 23:41:23,709 - INFO - Epoch 77/80 | G: 2.2346 | D: 0.2528 | Cycle A: 0.0657 | Cycle B: 0.0555 | EMA val cycle: 0.0720 | LR: 0.0000200 | Train time: 264.7s | Epoch time: 268.9s | Images/sec: 53.18 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:45:51,862 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_078.png
+2026-09-30 23:45:54,273 - INFO - Latest checkpoint saved after epoch 78.
+2026-09-30 23:45:54,295 - INFO - Epoch 78/80 | G: 2.2374 | D: 0.2493 | Cycle A: 0.0654 | Cycle B: 0.0557 | EMA val cycle: 0.0720 | LR: 0.0000150 | Train time: 264.1s | Epoch time: 268.2s | Images/sec: 53.30 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:50:22,669 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_079.png
+2026-09-30 23:50:25,029 - INFO - Latest checkpoint saved after epoch 79.
+2026-09-30 23:50:25,051 - INFO - Epoch 79/80 | G: 2.2266 | D: 0.2480 | Cycle A: 0.0649 | Cycle B: 0.0557 | EMA val cycle: 0.0722 | LR: 0.0000100 | Train time: 264.2s | Epoch time: 268.4s | Images/sec: 53.28 | Peak memory: 4.88 GB | NaNs: 0
+2026-09-30 23:54:56,089 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_080.png
+2026-09-30 23:54:56,944 - INFO - EMA generator checkpoint saved: generators_epoch_080.pt, ema_validation_cycle_loss=0.072329
+2026-09-30 23:54:59,077 - INFO - Latest checkpoint saved after epoch 80.
+2026-09-30 23:54:59,098 - INFO - Epoch 80/80 | G: 2.2308 | D: 0.2446 | Cycle A: 0.0643 | Cycle B: 0.0556 | EMA val cycle: 0.0723 | LR: 0.0000050 | Train time: 266.1s | Epoch time: 271.1s | Images/sec: 52.91 | Peak memory: 4.89 GB | NaNs: 0
+2026-09-30 23:54:59,129 - INFO - Training completed in 4.99 hours.
+2026-09-30 23:54:59,788 - INFO - Training metrics saved to: /app/task3_gan_diffaug_ema/results/training_history.csv
+2026-09-30 23:54:59,789 - INFO - Training curves saved to: /app/task3_gan_diffaug_ema/results/training_curves.png
+2026-09-30 23:55:00,873 - INFO - Loaded generator checkpoint from: /app/task3_gan_diffaug_ema/checkpoints/best_cycle_checkpoint.pt
+2026-09-30 23:55:07,254 - INFO - Generated 30 evaluation images for each direction.
+2026-09-30 23:55:13,589 - INFO - Similarity metrics saved to: /app/task3_gan_diffaug_ema/results/similarity_metrics.json
+2026-09-30 23:55:28,122 - INFO - FID and KID metrics saved to: /app/task3_gan_diffaug_ema/results/distribution_metrics.json
+2026-09-30 23:55:35,037 - INFO - Generated 30 evaluation images for each direction.
+2026-09-30 23:55:51,978 - INFO - Precision and recall saved to: /app/task3_gan_diffaug_ema/results/precision_recall_metrics.json
+2026-10-01 00:27:35,721 - INFO - Loading checkpoint: /app/task3_gan_diffaug_ema/checkpoints/latest_checkpoint.pt
+2026-10-01 00:27:38,051 - INFO - Training restored from epoch 80.
+2026-10-01 00:31:52,674 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_081.png
+2026-10-01 00:31:54,595 - INFO - Latest checkpoint saved after epoch 81.
+2026-10-01 00:31:54,596 - INFO - Epoch 81/100 | G: 2.2591 | D: 0.2566 | Cycle A: 0.0660 | Cycle B: 0.0562 | EMA val cycle: 0.0720 | LR: 0.0000250 | Train time: 227.9s | Epoch time: 232.0s | Images/sec: 61.75 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 00:35:45,746 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_082.png
+2026-10-01 00:35:48,004 - INFO - Latest checkpoint saved after epoch 82.
+2026-10-01 00:35:48,008 - INFO - Epoch 82/100 | G: 2.2595 | D: 0.2565 | Cycle A: 0.0660 | Cycle B: 0.0565 | EMA val cycle: 0.0719 | LR: 0.0000238 | Train time: 227.0s | Epoch time: 231.2s | Images/sec: 62.01 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 00:39:40,660 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_083.png
+2026-10-01 00:39:42,819 - INFO - Latest checkpoint saved after epoch 83.
+2026-10-01 00:39:42,820 - INFO - Epoch 83/100 | G: 2.2523 | D: 0.2528 | Cycle A: 0.0659 | Cycle B: 0.0564 | EMA val cycle: 0.0719 | LR: 0.0000225 | Train time: 228.4s | Epoch time: 232.7s | Images/sec: 61.63 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 00:43:31,599 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_084.png
+2026-10-01 00:43:33,787 - INFO - Latest checkpoint saved after epoch 84.
+2026-10-01 00:43:33,788 - INFO - Epoch 84/100 | G: 2.2555 | D: 0.2536 | Cycle A: 0.0655 | Cycle B: 0.0564 | EMA val cycle: 0.0721 | LR: 0.0000213 | Train time: 224.7s | Epoch time: 228.8s | Images/sec: 62.65 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 00:47:25,248 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_085.png
+2026-10-01 00:47:26,092 - INFO - EMA generator checkpoint saved: generators_epoch_085.pt, ema_validation_cycle_loss=0.072059
+2026-10-01 00:47:28,284 - INFO - Latest checkpoint saved after epoch 85.
+2026-10-01 00:47:28,285 - INFO - Epoch 85/100 | G: 2.2474 | D: 0.2528 | Cycle A: 0.0655 | Cycle B: 0.0564 | EMA val cycle: 0.0721 | LR: 0.0000200 | Train time: 227.2s | Epoch time: 231.5s | Images/sec: 61.96 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 00:51:21,696 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_086.png
+2026-10-01 00:51:24,111 - INFO - Latest checkpoint saved after epoch 86.
+2026-10-01 00:51:24,113 - INFO - Epoch 86/100 | G: 2.2615 | D: 0.2519 | Cycle A: 0.0654 | Cycle B: 0.0565 | EMA val cycle: 0.0722 | LR: 0.0000188 | Train time: 229.2s | Epoch time: 233.4s | Images/sec: 61.42 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 00:55:19,342 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_087.png
+2026-10-01 00:55:21,807 - INFO - Latest checkpoint saved after epoch 87.
+2026-10-01 00:55:21,809 - INFO - Epoch 87/100 | G: 2.2549 | D: 0.2515 | Cycle A: 0.0653 | Cycle B: 0.0565 | EMA val cycle: 0.0722 | LR: 0.0000175 | Train time: 230.9s | Epoch time: 235.2s | Images/sec: 60.96 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 00:59:13,603 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_088.png
+2026-10-01 00:59:16,078 - INFO - Latest checkpoint saved after epoch 88.
+2026-10-01 00:59:16,080 - INFO - Epoch 88/100 | G: 2.2588 | D: 0.2514 | Cycle A: 0.0652 | Cycle B: 0.0563 | EMA val cycle: 0.0723 | LR: 0.0000163 | Train time: 227.4s | Epoch time: 231.8s | Images/sec: 61.90 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:03:10,474 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_089.png
+2026-10-01 01:03:12,937 - INFO - Latest checkpoint saved after epoch 89.
+2026-10-01 01:03:12,939 - INFO - Epoch 89/100 | G: 2.2549 | D: 0.2491 | Cycle A: 0.0650 | Cycle B: 0.0566 | EMA val cycle: 0.0724 | LR: 0.0000150 | Train time: 229.9s | Epoch time: 234.4s | Images/sec: 61.22 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:07:05,257 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_090.png
+2026-10-01 01:07:06,157 - INFO - EMA generator checkpoint saved: generators_epoch_090.pt, ema_validation_cycle_loss=0.072477
+2026-10-01 01:07:08,389 - INFO - Latest checkpoint saved after epoch 90.
+2026-10-01 01:07:08,391 - INFO - Epoch 90/100 | G: 2.2481 | D: 0.2489 | Cycle A: 0.0649 | Cycle B: 0.0563 | EMA val cycle: 0.0725 | LR: 0.0000138 | Train time: 227.9s | Epoch time: 232.3s | Images/sec: 61.76 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:11:00,833 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_091.png
+2026-10-01 01:11:03,355 - INFO - Latest checkpoint saved after epoch 91.
+2026-10-01 01:11:03,356 - INFO - Epoch 91/100 | G: 2.2507 | D: 0.2475 | Cycle A: 0.0645 | Cycle B: 0.0563 | EMA val cycle: 0.0726 | LR: 0.0000125 | Train time: 228.2s | Epoch time: 232.4s | Images/sec: 61.68 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:14:55,448 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_092.png
+2026-10-01 01:14:57,674 - INFO - Latest checkpoint saved after epoch 92.
+2026-10-01 01:14:57,675 - INFO - Epoch 92/100 | G: 2.2602 | D: 0.2464 | Cycle A: 0.0646 | Cycle B: 0.0562 | EMA val cycle: 0.0723 | LR: 0.0000112 | Train time: 227.9s | Epoch time: 232.1s | Images/sec: 61.77 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:18:48,958 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_093.png
+2026-10-01 01:18:51,311 - INFO - Latest checkpoint saved after epoch 93.
+2026-10-01 01:18:51,312 - INFO - Epoch 93/100 | G: 2.2559 | D: 0.2456 | Cycle A: 0.0645 | Cycle B: 0.0562 | EMA val cycle: 0.0724 | LR: 0.0000100 | Train time: 227.3s | Epoch time: 231.3s | Images/sec: 61.91 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:22:42,419 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_094.png
+2026-10-01 01:22:44,657 - INFO - Latest checkpoint saved after epoch 94.
+2026-10-01 01:22:44,659 - INFO - Epoch 94/100 | G: 2.2597 | D: 0.2460 | Cycle A: 0.0643 | Cycle B: 0.0563 | EMA val cycle: 0.0724 | LR: 0.0000087 | Train time: 226.6s | Epoch time: 231.1s | Images/sec: 62.12 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:26:39,190 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_095.png
+2026-10-01 01:26:40,082 - INFO - EMA generator checkpoint saved: generators_epoch_095.pt, ema_validation_cycle_loss=0.072320
+2026-10-01 01:26:42,356 - INFO - Latest checkpoint saved after epoch 95.
+2026-10-01 01:26:42,357 - INFO - Epoch 95/100 | G: 2.2441 | D: 0.2443 | Cycle A: 0.0642 | Cycle B: 0.0558 | EMA val cycle: 0.0723 | LR: 0.0000075 | Train time: 230.1s | Epoch time: 234.5s | Images/sec: 61.19 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:30:34,310 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_096.png
+2026-10-01 01:30:36,533 - INFO - Latest checkpoint saved after epoch 96.
+2026-10-01 01:30:36,534 - INFO - Epoch 96/100 | G: 2.2537 | D: 0.2436 | Cycle A: 0.0641 | Cycle B: 0.0562 | EMA val cycle: 0.0724 | LR: 0.0000063 | Train time: 225.4s | Epoch time: 232.0s | Images/sec: 62.45 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:34:29,211 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_097.png
+2026-10-01 01:34:31,489 - INFO - Latest checkpoint saved after epoch 97.
+2026-10-01 01:34:31,490 - INFO - Epoch 97/100 | G: 2.2604 | D: 0.2434 | Cycle A: 0.0638 | Cycle B: 0.0565 | EMA val cycle: 0.0725 | LR: 0.0000050 | Train time: 228.0s | Epoch time: 232.7s | Images/sec: 61.75 | Peak memory: 4.98 GB | NaNs: 0
+2026-10-01 01:38:22,998 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_098.png
+2026-10-01 01:38:25,764 - INFO - Latest checkpoint saved after epoch 98.
+2026-10-01 01:38:25,766 - INFO - Epoch 98/100 | G: 2.2541 | D: 0.2412 | Cycle A: 0.0639 | Cycle B: 0.0561 | EMA val cycle: 0.0726 | LR: 0.0000038 | Train time: 227.4s | Epoch time: 231.5s | Images/sec: 61.89 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:42:17,987 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_099.png
+2026-10-01 01:42:20,153 - INFO - Latest checkpoint saved after epoch 99.
+2026-10-01 01:42:20,154 - INFO - Epoch 99/100 | G: 2.2532 | D: 0.2406 | Cycle A: 0.0638 | Cycle B: 0.0563 | EMA val cycle: 0.0726 | LR: 0.0000025 | Train time: 228.1s | Epoch time: 232.2s | Images/sec: 61.72 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:46:14,011 - INFO - Saved EMA progress image: /app/task3_gan_diffaug_ema/samples/epoch_100.png
+2026-10-01 01:46:14,843 - INFO - EMA generator checkpoint saved: generators_epoch_100.pt, ema_validation_cycle_loss=0.072565
+2026-10-01 01:46:17,029 - INFO - Latest checkpoint saved after epoch 100.
+2026-10-01 01:46:17,031 - INFO - Epoch 100/100 | G: 2.2458 | D: 0.2390 | Cycle A: 0.0637 | Cycle B: 0.0562 | EMA val cycle: 0.0726 | LR: 0.0000013 | Train time: 229.5s | Epoch time: 233.9s | Images/sec: 61.34 | Peak memory: 4.99 GB | NaNs: 0
+2026-10-01 01:46:17,032 - INFO - Training completed in 1.30 hours.
