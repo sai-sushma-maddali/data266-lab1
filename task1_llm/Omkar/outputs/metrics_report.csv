@@ -1,0 +1,16 @@
+metric,value,split,checkpoint
+train_ce,0.473963,train,checkpoints/gpt_best_model-v4.pt
+val_ce,0.481881,val,checkpoints/gpt_best_model-v4.pt
+perplexity,1.619117,val,checkpoints/gpt_best_model-v4.pt
+bits_per_character,0.695207,val,checkpoints/gpt_best_model-v4.pt
+generalization_gap,0.007918,val-train,checkpoints/gpt_best_model-v4.pt
+top1_accuracy,0.845072,val,checkpoints/gpt_best_model-v4.pt
+distinct_1,0.017971,gen,checkpoints/gpt_best_model-v4.pt
+distinct_2,0.135437,gen,checkpoints/gpt_best_model-v4.pt
+distinct_3,0.354117,gen,checkpoints/gpt_best_model-v4.pt
+repeated_4gram_rate,0.457017,gen,checkpoints/gpt_best_model-v4.pt
+param_count,25582592,model,checkpoints/gpt_best_model-v4.pt
+train_tokens_per_sec,250723.07,train,checkpoints/gpt_best_model-v4.pt
+gen_tokens_per_sec,340.82,gen,checkpoints/gpt_best_model-v4.pt
+peak_memory_gb,3.60,train,checkpoints/gpt_best_model-v4.pt
+training_time_sec,3736.74,train,checkpoints/gpt_best_model-v4.pt
