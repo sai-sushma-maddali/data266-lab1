@@ -1,0 +1,335 @@
+[2026-09-18T20:19:58.659299+00:00] ================================================================================
+[2026-09-18T20:19:58.665480+00:00] Starting Task 1 Version 4 training run: version_4_20260918T201955Z
+[2026-09-18T20:19:58.670235+00:00] Device: cuda
+[2026-09-18T20:19:58.675121+00:00] GPU: NVIDIA GeForce RTX 5090
+[2026-09-18T20:19:58.679713+00:00] PyTorch version: 2.7.1+cu128
+[2026-09-18T20:19:58.684548+00:00] CUDA version used by PyTorch: 12.8
+[2026-09-18T20:19:58.689431+00:00] Training stories: 100000
+[2026-09-18T20:19:58.694723+00:00] Validation stories: 10000
+[2026-09-18T20:19:58.698905+00:00] Training character tokens: 89,470,351
+[2026-09-18T20:19:58.703184+00:00] Validation character tokens: 8,928,818
+[2026-09-18T20:19:58.707622+00:00] Model parameters: 25,582,592
+[2026-09-18T20:19:58.712139+00:00] Model configuration: {"vocab_size": 114, "block_size": 512, "embedding_dim": 512, "num_heads": 8, "num_layers": 8, "feedforward_dim": 2048, "dropout": 0.1}
+[2026-09-18T20:20:29.032485+00:00] Beginning training for 10 epochs
+[2026-09-18T20:20:29.037969+00:00] Epoch 1/10 started
+[2026-09-18T20:20:29.346000+00:00] Epoch 1/10 | Microbatch 2/10921 | Optimizer step 1/54610 | Loss 4.7712 | LR 0.00000011 | Grad norm 13.2951
+[2026-09-18T20:20:42.467744+00:00] Epoch 1/10 | Microbatch 400/10921 | Optimizer step 200/54610 | Loss 2.4459 | LR 0.00002198 | Grad norm 1.1748
+[2026-09-18T20:20:55.887464+00:00] Epoch 1/10 | Microbatch 800/10921 | Optimizer step 400/54610 | Loss 2.2896 | LR 0.00004396 | Grad norm 0.5622
+[2026-09-18T20:21:09.488910+00:00] Epoch 1/10 | Microbatch 1200/10921 | Optimizer step 600/54610 | Loss 2.2682 | LR 0.00006593 | Grad norm 0.5830
+[2026-09-18T20:21:23.050409+00:00] Epoch 1/10 | Microbatch 1600/10921 | Optimizer step 800/54610 | Loss 2.0897 | LR 0.00008791 | Grad norm 0.9001
+[2026-09-18T20:21:36.144807+00:00] Epoch 1/10 | Microbatch 2000/10921 | Optimizer step 1000/54610 | Loss 1.7708 | LR 0.00010989 | Grad norm 1.4220
+[2026-09-18T20:21:49.327897+00:00] Epoch 1/10 | Microbatch 2400/10921 | Optimizer step 1200/54610 | Loss 1.5464 | LR 0.00013187 | Grad norm 1.1126
+[2026-09-18T20:22:02.538348+00:00] Epoch 1/10 | Microbatch 2800/10921 | Optimizer step 1400/54610 | Loss 1.3493 | LR 0.00015385 | Grad norm 0.9621
+[2026-09-18T20:22:16.066993+00:00] Epoch 1/10 | Microbatch 3200/10921 | Optimizer step 1600/54610 | Loss 1.2562 | LR 0.00017582 | Grad norm 0.8490
+[2026-09-18T20:22:29.298666+00:00] Epoch 1/10 | Microbatch 3600/10921 | Optimizer step 1800/54610 | Loss 1.1657 | LR 0.00019780 | Grad norm 0.8892
+[2026-09-18T20:22:42.456813+00:00] Epoch 1/10 | Microbatch 4000/10921 | Optimizer step 2000/54610 | Loss 1.0680 | LR 0.00021978 | Grad norm 0.6825
+[2026-09-18T20:22:55.784591+00:00] Epoch 1/10 | Microbatch 4400/10921 | Optimizer step 2200/54610 | Loss 1.0226 | LR 0.00024176 | Grad norm 0.7902
+[2026-09-18T20:23:08.873937+00:00] Epoch 1/10 | Microbatch 4800/10921 | Optimizer step 2400/54610 | Loss 0.9661 | LR 0.00026374 | Grad norm 0.6981
+[2026-09-18T20:23:22.134772+00:00] Epoch 1/10 | Microbatch 5200/10921 | Optimizer step 2600/54610 | Loss 0.9002 | LR 0.00028571 | Grad norm 0.6420
+[2026-09-18T20:23:35.014153+00:00] Epoch 1/10 | Microbatch 5600/10921 | Optimizer step 2800/54610 | Loss 0.9351 | LR 0.00030000 | Grad norm 0.5966
+[2026-09-18T20:23:47.993514+00:00] Epoch 1/10 | Microbatch 6000/10921 | Optimizer step 3000/54610 | Loss 0.8498 | LR 0.00029998 | Grad norm 0.5025
+[2026-09-18T20:24:00.908499+00:00] Epoch 1/10 | Microbatch 6400/10921 | Optimizer step 3200/54610 | Loss 0.8364 | LR 0.00029995 | Grad norm 0.4493
+[2026-09-18T20:24:13.841863+00:00] Epoch 1/10 | Microbatch 6800/10921 | Optimizer step 3400/54610 | Loss 0.8168 | LR 0.00029989 | Grad norm 0.4478
+[2026-09-18T20:24:26.752136+00:00] Epoch 1/10 | Microbatch 7200/10921 | Optimizer step 3600/54610 | Loss 0.7901 | LR 0.00029981 | Grad norm 0.4165
+[2026-09-18T20:24:39.637736+00:00] Epoch 1/10 | Microbatch 7600/10921 | Optimizer step 3800/54610 | Loss 0.7328 | LR 0.00029972 | Grad norm 0.3808
+[2026-09-18T20:24:52.508931+00:00] Epoch 1/10 | Microbatch 8000/10921 | Optimizer step 4000/54610 | Loss 0.7647 | LR 0.00029960 | Grad norm 0.4026
+[2026-09-18T20:25:05.382003+00:00] Epoch 1/10 | Microbatch 8400/10921 | Optimizer step 4200/54610 | Loss 0.7448 | LR 0.00029947 | Grad norm 0.4043
+[2026-09-18T20:25:18.268177+00:00] Epoch 1/10 | Microbatch 8800/10921 | Optimizer step 4400/54610 | Loss 0.7645 | LR 0.00029931 | Grad norm 0.3503
+[2026-09-18T20:25:31.145517+00:00] Epoch 1/10 | Microbatch 9200/10921 | Optimizer step 4600/54610 | Loss 0.7252 | LR 0.00029914 | Grad norm 0.3422
+[2026-09-18T20:25:44.038800+00:00] Epoch 1/10 | Microbatch 9600/10921 | Optimizer step 4800/54610 | Loss 0.6990 | LR 0.00029894 | Grad norm 0.3597
+[2026-09-18T20:25:56.958876+00:00] Epoch 1/10 | Microbatch 10000/10921 | Optimizer step 5000/54610 | Loss 0.7083 | LR 0.00029873 | Grad norm 0.3339
+[2026-09-18T20:26:09.814276+00:00] Epoch 1/10 | Microbatch 10400/10921 | Optimizer step 5200/54610 | Loss 0.7392 | LR 0.00029849 | Grad norm 0.3223
+[2026-09-18T20:26:22.692364+00:00] Epoch 1/10 | Microbatch 10800/10921 | Optimizer step 5400/54610 | Loss 0.6849 | LR 0.00029824 | Grad norm 0.3154
+[2026-09-18T20:26:26.603314+00:00] Epoch 1/10 | Microbatch 10921/10921 | Optimizer step 5461/54610 | Loss 0.7231 | LR 0.00029816 | Grad norm 0.4525
+[2026-09-18T20:26:38.392608+00:00] Epoch 1/10 completed | Train loss 1.1988 | Validation loss 0.6710 | Validation accuracy 78.7083% | Train tokens/sec 250,191 | Epoch time 369.37s
+[2026-09-18T20:26:40.796911+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T20:26:40.800992+00:00] Epoch 2/10 started
+[2026-09-18T20:26:49.916416+00:00] Epoch 2/10 | Microbatch 278/10921 | Optimizer step 5600/54610 | Loss 0.6859 | LR 0.00029797 | Grad norm 0.3027
+[2026-09-18T20:27:02.805705+00:00] Epoch 2/10 | Microbatch 678/10921 | Optimizer step 5800/54610 | Loss 0.6783 | LR 0.00029768 | Grad norm 0.3079
+[2026-09-18T20:27:15.719708+00:00] Epoch 2/10 | Microbatch 1078/10921 | Optimizer step 6000/54610 | Loss 0.6759 | LR 0.00029736 | Grad norm 0.2924
+[2026-09-18T20:27:28.647150+00:00] Epoch 2/10 | Microbatch 1478/10921 | Optimizer step 6200/54610 | Loss 0.6799 | LR 0.00029703 | Grad norm 0.3035
+[2026-09-18T20:27:41.549018+00:00] Epoch 2/10 | Microbatch 1878/10921 | Optimizer step 6400/54610 | Loss 0.6655 | LR 0.00029668 | Grad norm 0.2870
+[2026-09-18T20:27:54.472267+00:00] Epoch 2/10 | Microbatch 2278/10921 | Optimizer step 6600/54610 | Loss 0.6694 | LR 0.00029631 | Grad norm 0.2874
+[2026-09-18T20:28:07.369854+00:00] Epoch 2/10 | Microbatch 2678/10921 | Optimizer step 6800/54610 | Loss 0.6430 | LR 0.00029592 | Grad norm 0.2854
+[2026-09-18T20:28:20.407318+00:00] Epoch 2/10 | Microbatch 3078/10921 | Optimizer step 7000/54610 | Loss 0.6720 | LR 0.00029551 | Grad norm 0.2809
+[2026-09-18T20:28:33.702788+00:00] Epoch 2/10 | Microbatch 3478/10921 | Optimizer step 7200/54610 | Loss 0.6394 | LR 0.00029509 | Grad norm 0.2772
+[2026-09-18T20:28:46.636920+00:00] Epoch 2/10 | Microbatch 3878/10921 | Optimizer step 7400/54610 | Loss 0.6590 | LR 0.00029464 | Grad norm 0.2740
+[2026-09-18T20:28:59.572724+00:00] Epoch 2/10 | Microbatch 4278/10921 | Optimizer step 7600/54610 | Loss 0.6646 | LR 0.00029417 | Grad norm 0.2850
+[2026-09-18T20:29:12.503376+00:00] Epoch 2/10 | Microbatch 4678/10921 | Optimizer step 7800/54610 | Loss 0.6440 | LR 0.00029369 | Grad norm 0.2719
+[2026-09-18T20:29:25.444714+00:00] Epoch 2/10 | Microbatch 5078/10921 | Optimizer step 8000/54610 | Loss 0.6206 | LR 0.00029319 | Grad norm 0.2569
+[2026-09-18T20:29:38.388510+00:00] Epoch 2/10 | Microbatch 5478/10921 | Optimizer step 8200/54610 | Loss 0.5998 | LR 0.00029266 | Grad norm 0.2567
+[2026-09-18T20:29:51.309311+00:00] Epoch 2/10 | Microbatch 5878/10921 | Optimizer step 8400/54610 | Loss 0.6631 | LR 0.00029212 | Grad norm 0.2735
+[2026-09-18T20:30:04.214874+00:00] Epoch 2/10 | Microbatch 6278/10921 | Optimizer step 8600/54610 | Loss 0.6421 | LR 0.00029156 | Grad norm 0.2629
+[2026-09-18T20:30:17.117540+00:00] Epoch 2/10 | Microbatch 6678/10921 | Optimizer step 8800/54610 | Loss 0.6399 | LR 0.00029099 | Grad norm 0.2706
+[2026-09-18T20:30:30.024962+00:00] Epoch 2/10 | Microbatch 7078/10921 | Optimizer step 9000/54610 | Loss 0.6312 | LR 0.00029039 | Grad norm 0.2597
+[2026-09-18T20:30:42.977497+00:00] Epoch 2/10 | Microbatch 7478/10921 | Optimizer step 9200/54610 | Loss 0.6696 | LR 0.00028977 | Grad norm 0.2666
+[2026-09-18T20:30:55.936873+00:00] Epoch 2/10 | Microbatch 7878/10921 | Optimizer step 9400/54610 | Loss 0.6247 | LR 0.00028914 | Grad norm 0.2422
+[2026-09-18T20:31:08.864502+00:00] Epoch 2/10 | Microbatch 8278/10921 | Optimizer step 9600/54610 | Loss 0.6465 | LR 0.00028849 | Grad norm 0.2565
+[2026-09-18T20:31:21.766059+00:00] Epoch 2/10 | Microbatch 8678/10921 | Optimizer step 9800/54610 | Loss 0.6107 | LR 0.00028782 | Grad norm 0.2518
+[2026-09-18T20:31:34.686071+00:00] Epoch 2/10 | Microbatch 9078/10921 | Optimizer step 10000/54610 | Loss 0.6254 | LR 0.00028713 | Grad norm 0.2482
+[2026-09-18T20:31:47.608944+00:00] Epoch 2/10 | Microbatch 9478/10921 | Optimizer step 10200/54610 | Loss 0.6190 | LR 0.00028643 | Grad norm 0.2491
+[2026-09-18T20:32:00.537533+00:00] Epoch 2/10 | Microbatch 9878/10921 | Optimizer step 10400/54610 | Loss 0.6350 | LR 0.00028570 | Grad norm 0.2564
+[2026-09-18T20:32:13.506909+00:00] Epoch 2/10 | Microbatch 10278/10921 | Optimizer step 10600/54610 | Loss 0.6078 | LR 0.00028496 | Grad norm 0.2367
+[2026-09-18T20:32:26.404732+00:00] Epoch 2/10 | Microbatch 10678/10921 | Optimizer step 10800/54610 | Loss 0.6227 | LR 0.00028420 | Grad norm 0.2545
+[2026-09-18T20:32:34.269823+00:00] Epoch 2/10 | Microbatch 10921/10921 | Optimizer step 10922/54610 | Loss 0.5845 | LR 0.00028373 | Grad norm 0.3319
+[2026-09-18T20:32:45.982991+00:00] Epoch 2/10 completed | Train loss 0.6457 | Validation loss 0.5875 | Validation accuracy 81.2263% | Train tokens/sec 253,091 | Epoch time 365.20s
+[2026-09-18T20:32:49.014570+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T20:32:49.019403+00:00] Epoch 3/10 started
+[2026-09-18T20:32:54.118818+00:00] Epoch 3/10 | Microbatch 156/10921 | Optimizer step 11000/54610 | Loss 0.6130 | LR 0.00028343 | Grad norm 0.2542
+[2026-09-18T20:33:07.061340+00:00] Epoch 3/10 | Microbatch 556/10921 | Optimizer step 11200/54610 | Loss 0.5936 | LR 0.00028263 | Grad norm 0.2488
+[2026-09-18T20:33:19.997979+00:00] Epoch 3/10 | Microbatch 956/10921 | Optimizer step 11400/54610 | Loss 0.6047 | LR 0.00028182 | Grad norm 0.2420
+[2026-09-18T20:33:32.908492+00:00] Epoch 3/10 | Microbatch 1356/10921 | Optimizer step 11600/54610 | Loss 0.5696 | LR 0.00028099 | Grad norm 0.2395
+[2026-09-18T20:33:45.841584+00:00] Epoch 3/10 | Microbatch 1756/10921 | Optimizer step 11800/54610 | Loss 0.6192 | LR 0.00028015 | Grad norm 0.2449
+[2026-09-18T20:33:58.794975+00:00] Epoch 3/10 | Microbatch 2156/10921 | Optimizer step 12000/54610 | Loss 0.5806 | LR 0.00027929 | Grad norm 0.2363
+[2026-09-18T20:34:11.748289+00:00] Epoch 3/10 | Microbatch 2556/10921 | Optimizer step 12200/54610 | Loss 0.6066 | LR 0.00027841 | Grad norm 0.2471
+[2026-09-18T20:34:24.633796+00:00] Epoch 3/10 | Microbatch 2956/10921 | Optimizer step 12400/54610 | Loss 0.6218 | LR 0.00027751 | Grad norm 0.2524
+[2026-09-18T20:34:37.760203+00:00] Epoch 3/10 | Microbatch 3356/10921 | Optimizer step 12600/54610 | Loss 0.5891 | LR 0.00027660 | Grad norm 0.2363
+[2026-09-18T20:34:50.948395+00:00] Epoch 3/10 | Microbatch 3756/10921 | Optimizer step 12800/54610 | Loss 0.6008 | LR 0.00027567 | Grad norm 0.2422
+[2026-09-18T20:35:04.019531+00:00] Epoch 3/10 | Microbatch 4156/10921 | Optimizer step 13000/54610 | Loss 0.6221 | LR 0.00027473 | Grad norm 0.2553
+[2026-09-18T20:35:17.150468+00:00] Epoch 3/10 | Microbatch 4556/10921 | Optimizer step 13200/54610 | Loss 0.5891 | LR 0.00027377 | Grad norm 0.2317
+[2026-09-18T20:35:30.198214+00:00] Epoch 3/10 | Microbatch 4956/10921 | Optimizer step 13400/54610 | Loss 0.5554 | LR 0.00027279 | Grad norm 0.2230
+[2026-09-18T20:35:43.761435+00:00] Epoch 3/10 | Microbatch 5356/10921 | Optimizer step 13600/54610 | Loss 0.5900 | LR 0.00027180 | Grad norm 0.2307
+[2026-09-18T20:35:57.349287+00:00] Epoch 3/10 | Microbatch 5756/10921 | Optimizer step 13800/54610 | Loss 0.5607 | LR 0.00027079 | Grad norm 0.2344
+[2026-09-18T20:36:10.651554+00:00] Epoch 3/10 | Microbatch 6156/10921 | Optimizer step 14000/54610 | Loss 0.5904 | LR 0.00026977 | Grad norm 0.2427
+[2026-09-18T20:36:24.857175+00:00] Epoch 3/10 | Microbatch 6556/10921 | Optimizer step 14200/54610 | Loss 0.5601 | LR 0.00026873 | Grad norm 0.2269
+[2026-09-18T20:36:38.447041+00:00] Epoch 3/10 | Microbatch 6956/10921 | Optimizer step 14400/54610 | Loss 0.5941 | LR 0.00026768 | Grad norm 0.2382
+[2026-09-18T20:36:51.572658+00:00] Epoch 3/10 | Microbatch 7356/10921 | Optimizer step 14600/54610 | Loss 0.5636 | LR 0.00026661 | Grad norm 0.2382
+[2026-09-18T20:37:04.512633+00:00] Epoch 3/10 | Microbatch 7756/10921 | Optimizer step 14800/54610 | Loss 0.6081 | LR 0.00026552 | Grad norm 0.2374
+[2026-09-18T20:37:17.440150+00:00] Epoch 3/10 | Microbatch 8156/10921 | Optimizer step 15000/54610 | Loss 0.5884 | LR 0.00026442 | Grad norm 0.2388
+[2026-09-18T20:37:30.356063+00:00] Epoch 3/10 | Microbatch 8556/10921 | Optimizer step 15200/54610 | Loss 0.5995 | LR 0.00026331 | Grad norm 0.2416
+[2026-09-18T20:37:43.335027+00:00] Epoch 3/10 | Microbatch 8956/10921 | Optimizer step 15400/54610 | Loss 0.6069 | LR 0.00026218 | Grad norm 0.2416
+[2026-09-18T20:37:56.442406+00:00] Epoch 3/10 | Microbatch 9356/10921 | Optimizer step 15600/54610 | Loss 0.5793 | LR 0.00026104 | Grad norm 0.2321
+[2026-09-18T20:38:09.457024+00:00] Epoch 3/10 | Microbatch 9756/10921 | Optimizer step 15800/54610 | Loss 0.5603 | LR 0.00025989 | Grad norm 0.2211
+[2026-09-18T20:38:22.776002+00:00] Epoch 3/10 | Microbatch 10156/10921 | Optimizer step 16000/54610 | Loss 0.5910 | LR 0.00025872 | Grad norm 0.2312
+[2026-09-18T20:38:35.905218+00:00] Epoch 3/10 | Microbatch 10556/10921 | Optimizer step 16200/54610 | Loss 0.5658 | LR 0.00025753 | Grad norm 0.2305
+[2026-09-18T20:38:47.962081+00:00] Epoch 3/10 | Microbatch 10921/10921 | Optimizer step 16383/54610 | Loss 0.5752 | LR 0.00025644 | Grad norm 0.3247
+[2026-09-18T20:38:59.767152+00:00] Epoch 3/10 completed | Train loss 0.5866 | Validation loss 0.5525 | Validation accuracy 82.3120% | Train tokens/sec 249,231 | Epoch time 370.76s
+[2026-09-18T20:39:02.925865+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T20:39:02.929374+00:00] Epoch 4/10 started
+[2026-09-18T20:39:04.095594+00:00] Epoch 4/10 | Microbatch 34/10921 | Optimizer step 16400/54610 | Loss 0.5985 | LR 0.00025633 | Grad norm 0.2426
+[2026-09-18T20:39:17.332698+00:00] Epoch 4/10 | Microbatch 434/10921 | Optimizer step 16600/54610 | Loss 0.5535 | LR 0.00025512 | Grad norm 0.2440
+[2026-09-18T20:39:30.467435+00:00] Epoch 4/10 | Microbatch 834/10921 | Optimizer step 16800/54610 | Loss 0.5458 | LR 0.00025390 | Grad norm 0.2217
+[2026-09-18T20:39:43.929525+00:00] Epoch 4/10 | Microbatch 1234/10921 | Optimizer step 17000/54610 | Loss 0.5792 | LR 0.00025266 | Grad norm 0.2359
+[2026-09-18T20:39:56.890003+00:00] Epoch 4/10 | Microbatch 1634/10921 | Optimizer step 17200/54610 | Loss 0.5575 | LR 0.00025141 | Grad norm 0.2294
+[2026-09-18T20:40:09.954054+00:00] Epoch 4/10 | Microbatch 2034/10921 | Optimizer step 17400/54610 | Loss 0.5458 | LR 0.00025015 | Grad norm 0.2280
+[2026-09-18T20:40:23.886543+00:00] Epoch 4/10 | Microbatch 2434/10921 | Optimizer step 17600/54610 | Loss 0.5554 | LR 0.00024888 | Grad norm 0.2311
+[2026-09-18T20:40:36.902874+00:00] Epoch 4/10 | Microbatch 2834/10921 | Optimizer step 17800/54610 | Loss 0.5398 | LR 0.00024759 | Grad norm 0.2193
+[2026-09-18T20:40:50.248007+00:00] Epoch 4/10 | Microbatch 3234/10921 | Optimizer step 18000/54610 | Loss 0.5778 | LR 0.00024629 | Grad norm 0.2250
+[2026-09-18T20:41:03.841812+00:00] Epoch 4/10 | Microbatch 3634/10921 | Optimizer step 18200/54610 | Loss 0.5386 | LR 0.00024498 | Grad norm 0.2205
+[2026-09-18T20:41:17.326803+00:00] Epoch 4/10 | Microbatch 4034/10921 | Optimizer step 18400/54610 | Loss 0.5903 | LR 0.00024365 | Grad norm 0.2305
+[2026-09-18T20:41:30.717591+00:00] Epoch 4/10 | Microbatch 4434/10921 | Optimizer step 18600/54610 | Loss 0.5534 | LR 0.00024232 | Grad norm 0.2251
+[2026-09-18T20:41:44.272813+00:00] Epoch 4/10 | Microbatch 4834/10921 | Optimizer step 18800/54610 | Loss 0.5106 | LR 0.00024097 | Grad norm 0.2139
+[2026-09-18T20:41:57.727882+00:00] Epoch 4/10 | Microbatch 5234/10921 | Optimizer step 19000/54610 | Loss 0.5545 | LR 0.00023962 | Grad norm 0.2293
+[2026-09-18T20:42:11.351416+00:00] Epoch 4/10 | Microbatch 5634/10921 | Optimizer step 19200/54610 | Loss 0.5298 | LR 0.00023825 | Grad norm 0.2248
+[2026-09-18T20:42:24.814211+00:00] Epoch 4/10 | Microbatch 6034/10921 | Optimizer step 19400/54610 | Loss 0.5612 | LR 0.00023687 | Grad norm 0.2365
+[2026-09-18T20:42:38.252303+00:00] Epoch 4/10 | Microbatch 6434/10921 | Optimizer step 19600/54610 | Loss 0.5605 | LR 0.00023548 | Grad norm 0.2256
+[2026-09-18T20:42:51.676893+00:00] Epoch 4/10 | Microbatch 6834/10921 | Optimizer step 19800/54610 | Loss 0.5702 | LR 0.00023408 | Grad norm 0.2407
+[2026-09-18T20:43:05.527894+00:00] Epoch 4/10 | Microbatch 7234/10921 | Optimizer step 20000/54610 | Loss 0.5483 | LR 0.00023267 | Grad norm 0.2345
+[2026-09-18T20:43:18.607966+00:00] Epoch 4/10 | Microbatch 7634/10921 | Optimizer step 20200/54610 | Loss 0.5276 | LR 0.00023125 | Grad norm 0.2223
+[2026-09-18T20:43:31.952963+00:00] Epoch 4/10 | Microbatch 8034/10921 | Optimizer step 20400/54610 | Loss 0.5815 | LR 0.00022982 | Grad norm 0.2347
+[2026-09-18T20:43:45.598696+00:00] Epoch 4/10 | Microbatch 8434/10921 | Optimizer step 20600/54610 | Loss 0.5545 | LR 0.00022838 | Grad norm 0.2325
+[2026-09-18T20:43:59.625714+00:00] Epoch 4/10 | Microbatch 8834/10921 | Optimizer step 20800/54610 | Loss 0.5519 | LR 0.00022694 | Grad norm 0.2256
+[2026-09-18T20:44:12.635813+00:00] Epoch 4/10 | Microbatch 9234/10921 | Optimizer step 21000/54610 | Loss 0.5893 | LR 0.00022548 | Grad norm 0.2453
+[2026-09-18T20:44:25.903054+00:00] Epoch 4/10 | Microbatch 9634/10921 | Optimizer step 21200/54610 | Loss 0.5393 | LR 0.00022401 | Grad norm 0.2263
+[2026-09-18T20:44:38.825841+00:00] Epoch 4/10 | Microbatch 10034/10921 | Optimizer step 21400/54610 | Loss 0.5521 | LR 0.00022254 | Grad norm 0.2254
+[2026-09-18T20:44:51.753020+00:00] Epoch 4/10 | Microbatch 10434/10921 | Optimizer step 21600/54610 | Loss 0.5659 | LR 0.00022105 | Grad norm 0.2305
+[2026-09-18T20:45:04.676688+00:00] Epoch 4/10 | Microbatch 10834/10921 | Optimizer step 21800/54610 | Loss 0.5438 | LR 0.00021956 | Grad norm 0.2328
+[2026-09-18T20:45:07.509734+00:00] Epoch 4/10 | Microbatch 10921/10921 | Optimizer step 21844/54610 | Loss 0.5348 | LR 0.00021923 | Grad norm 0.3057
+[2026-09-18T20:45:19.211872+00:00] Epoch 4/10 completed | Train loss 0.5560 | Validation loss 0.5320 | Validation accuracy 82.9360% | Train tokens/sec 245,378 | Epoch time 376.30s
+[2026-09-18T20:45:22.399405+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T20:45:22.403901+00:00] Epoch 5/10 started
+[2026-09-18T20:45:32.571074+00:00] Epoch 5/10 | Microbatch 312/10921 | Optimizer step 22000/54610 | Loss 0.5455 | LR 0.00021806 | Grad norm 0.2338
+[2026-09-18T20:45:45.501869+00:00] Epoch 5/10 | Microbatch 712/10921 | Optimizer step 22200/54610 | Loss 0.5456 | LR 0.00021656 | Grad norm 0.2290
+[2026-09-18T20:45:58.427752+00:00] Epoch 5/10 | Microbatch 1112/10921 | Optimizer step 22400/54610 | Loss 0.5656 | LR 0.00021504 | Grad norm 0.2470
+[2026-09-18T20:46:11.353820+00:00] Epoch 5/10 | Microbatch 1512/10921 | Optimizer step 22600/54610 | Loss 0.5596 | LR 0.00021352 | Grad norm 0.2358
+[2026-09-18T20:46:24.213672+00:00] Epoch 5/10 | Microbatch 1912/10921 | Optimizer step 22800/54610 | Loss 0.5677 | LR 0.00021199 | Grad norm 0.2283
+[2026-09-18T20:46:37.128552+00:00] Epoch 5/10 | Microbatch 2312/10921 | Optimizer step 23000/54610 | Loss 0.5250 | LR 0.00021045 | Grad norm 0.2217
+[2026-09-18T20:46:50.095310+00:00] Epoch 5/10 | Microbatch 2712/10921 | Optimizer step 23200/54610 | Loss 0.5161 | LR 0.00020891 | Grad norm 0.2200
+[2026-09-18T20:47:03.010136+00:00] Epoch 5/10 | Microbatch 3112/10921 | Optimizer step 23400/54610 | Loss 0.5468 | LR 0.00020736 | Grad norm 0.2261
+[2026-09-18T20:47:15.915469+00:00] Epoch 5/10 | Microbatch 3512/10921 | Optimizer step 23600/54610 | Loss 0.5254 | LR 0.00020581 | Grad norm 0.2217
+[2026-09-18T20:47:28.834527+00:00] Epoch 5/10 | Microbatch 3912/10921 | Optimizer step 23800/54610 | Loss 0.5407 | LR 0.00020425 | Grad norm 0.2366
+[2026-09-18T20:47:41.738982+00:00] Epoch 5/10 | Microbatch 4312/10921 | Optimizer step 24000/54610 | Loss 0.5467 | LR 0.00020268 | Grad norm 0.2337
+[2026-09-18T20:47:54.653262+00:00] Epoch 5/10 | Microbatch 4712/10921 | Optimizer step 24200/54610 | Loss 0.5283 | LR 0.00020111 | Grad norm 0.2222
+[2026-09-18T20:48:07.561210+00:00] Epoch 5/10 | Microbatch 5112/10921 | Optimizer step 24400/54610 | Loss 0.5583 | LR 0.00019953 | Grad norm 0.2320
+[2026-09-18T20:48:20.512453+00:00] Epoch 5/10 | Microbatch 5512/10921 | Optimizer step 24600/54610 | Loss 0.5692 | LR 0.00019794 | Grad norm 0.2403
+[2026-09-18T20:48:33.455921+00:00] Epoch 5/10 | Microbatch 5912/10921 | Optimizer step 24800/54610 | Loss 0.5203 | LR 0.00019636 | Grad norm 0.2313
+[2026-09-18T20:48:46.399214+00:00] Epoch 5/10 | Microbatch 6312/10921 | Optimizer step 25000/54610 | Loss 0.5315 | LR 0.00019476 | Grad norm 0.2275
+[2026-09-18T20:48:59.319503+00:00] Epoch 5/10 | Microbatch 6712/10921 | Optimizer step 25200/54610 | Loss 0.5460 | LR 0.00019317 | Grad norm 0.2251
+[2026-09-18T20:49:12.214284+00:00] Epoch 5/10 | Microbatch 7112/10921 | Optimizer step 25400/54610 | Loss 0.5143 | LR 0.00019157 | Grad norm 0.2311
+[2026-09-18T20:49:25.110912+00:00] Epoch 5/10 | Microbatch 7512/10921 | Optimizer step 25600/54610 | Loss 0.5532 | LR 0.00018996 | Grad norm 0.2290
+[2026-09-18T20:49:38.028715+00:00] Epoch 5/10 | Microbatch 7912/10921 | Optimizer step 25800/54610 | Loss 0.5460 | LR 0.00018835 | Grad norm 0.2324
+[2026-09-18T20:49:50.935075+00:00] Epoch 5/10 | Microbatch 8312/10921 | Optimizer step 26000/54610 | Loss 0.5402 | LR 0.00018674 | Grad norm 0.2369
+[2026-09-18T20:50:03.815619+00:00] Epoch 5/10 | Microbatch 8712/10921 | Optimizer step 26200/54610 | Loss 0.5300 | LR 0.00018512 | Grad norm 0.2244
+[2026-09-18T20:50:16.730055+00:00] Epoch 5/10 | Microbatch 9112/10921 | Optimizer step 26400/54610 | Loss 0.5424 | LR 0.00018351 | Grad norm 0.2303
+[2026-09-18T20:50:29.611357+00:00] Epoch 5/10 | Microbatch 9512/10921 | Optimizer step 26600/54610 | Loss 0.5159 | LR 0.00018189 | Grad norm 0.2233
+[2026-09-18T20:50:42.557102+00:00] Epoch 5/10 | Microbatch 9912/10921 | Optimizer step 26800/54610 | Loss 0.5473 | LR 0.00018026 | Grad norm 0.2280
+[2026-09-18T20:50:55.439050+00:00] Epoch 5/10 | Microbatch 10312/10921 | Optimizer step 27000/54610 | Loss 0.5096 | LR 0.00017864 | Grad norm 0.2174
+[2026-09-18T20:51:08.334006+00:00] Epoch 5/10 | Microbatch 10712/10921 | Optimizer step 27200/54610 | Loss 0.5194 | LR 0.00017701 | Grad norm 0.2255
+[2026-09-18T20:51:15.097469+00:00] Epoch 5/10 | Microbatch 10921/10921 | Optimizer step 27305/54610 | Loss 0.5431 | LR 0.00017615 | Grad norm 0.3323
+[2026-09-18T20:51:26.811664+00:00] Epoch 5/10 completed | Train loss 0.5347 | Validation loss 0.5175 | Validation accuracy 83.3900% | Train tokens/sec 253,647 | Epoch time 364.42s
+[2026-09-18T20:51:30.225075+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T20:51:30.232110+00:00] Epoch 6/10 started
+[2026-09-18T20:51:36.422479+00:00] Epoch 6/10 | Microbatch 190/10921 | Optimizer step 27400/54610 | Loss 0.5276 | LR 0.00017538 | Grad norm 0.2350
+[2026-09-18T20:51:49.343867+00:00] Epoch 6/10 | Microbatch 590/10921 | Optimizer step 27600/54610 | Loss 0.5125 | LR 0.00017375 | Grad norm 0.2328
+[2026-09-18T20:52:02.274888+00:00] Epoch 6/10 | Microbatch 990/10921 | Optimizer step 27800/54610 | Loss 0.5379 | LR 0.00017212 | Grad norm 0.2435
+[2026-09-18T20:52:15.294286+00:00] Epoch 6/10 | Microbatch 1390/10921 | Optimizer step 28000/54610 | Loss 0.4970 | LR 0.00017048 | Grad norm 0.2264
+[2026-09-18T20:52:28.196202+00:00] Epoch 6/10 | Microbatch 1790/10921 | Optimizer step 28200/54610 | Loss 0.5452 | LR 0.00016885 | Grad norm 0.2404
+[2026-09-18T20:52:41.099566+00:00] Epoch 6/10 | Microbatch 2190/10921 | Optimizer step 28400/54610 | Loss 0.5083 | LR 0.00016722 | Grad norm 0.2376
+[2026-09-18T20:52:54.011408+00:00] Epoch 6/10 | Microbatch 2590/10921 | Optimizer step 28600/54610 | Loss 0.5432 | LR 0.00016558 | Grad norm 0.2368
+[2026-09-18T20:53:06.931012+00:00] Epoch 6/10 | Microbatch 2990/10921 | Optimizer step 28800/54610 | Loss 0.5089 | LR 0.00016395 | Grad norm 0.2238
+[2026-09-18T20:53:19.851356+00:00] Epoch 6/10 | Microbatch 3390/10921 | Optimizer step 29000/54610 | Loss 0.5303 | LR 0.00016231 | Grad norm 0.2350
+[2026-09-18T20:53:32.774182+00:00] Epoch 6/10 | Microbatch 3790/10921 | Optimizer step 29200/54610 | Loss 0.5321 | LR 0.00016068 | Grad norm 0.2378
+[2026-09-18T20:53:45.757511+00:00] Epoch 6/10 | Microbatch 4190/10921 | Optimizer step 29400/54610 | Loss 0.4970 | LR 0.00015904 | Grad norm 0.2192
+[2026-09-18T20:53:58.656705+00:00] Epoch 6/10 | Microbatch 4590/10921 | Optimizer step 29600/54610 | Loss 0.5163 | LR 0.00015741 | Grad norm 0.2404
+[2026-09-18T20:54:11.589007+00:00] Epoch 6/10 | Microbatch 4990/10921 | Optimizer step 29800/54610 | Loss 0.5010 | LR 0.00015578 | Grad norm 0.2337
+[2026-09-18T20:54:24.461090+00:00] Epoch 6/10 | Microbatch 5390/10921 | Optimizer step 30000/54610 | Loss 0.4982 | LR 0.00015415 | Grad norm 0.2321
+[2026-09-18T20:54:37.373732+00:00] Epoch 6/10 | Microbatch 5790/10921 | Optimizer step 30200/54610 | Loss 0.4750 | LR 0.00015252 | Grad norm 0.2270
+[2026-09-18T20:54:50.302168+00:00] Epoch 6/10 | Microbatch 6190/10921 | Optimizer step 30400/54610 | Loss 0.5060 | LR 0.00015089 | Grad norm 0.2353
+[2026-09-18T20:55:03.219502+00:00] Epoch 6/10 | Microbatch 6590/10921 | Optimizer step 30600/54610 | Loss 0.5104 | LR 0.00014927 | Grad norm 0.2400
+[2026-09-18T20:55:16.129355+00:00] Epoch 6/10 | Microbatch 6990/10921 | Optimizer step 30800/54610 | Loss 0.5140 | LR 0.00014764 | Grad norm 0.2385
+[2026-09-18T20:55:29.036041+00:00] Epoch 6/10 | Microbatch 7390/10921 | Optimizer step 31000/54610 | Loss 0.4988 | LR 0.00014602 | Grad norm 0.2329
+[2026-09-18T20:55:41.949660+00:00] Epoch 6/10 | Microbatch 7790/10921 | Optimizer step 31200/54610 | Loss 0.4895 | LR 0.00014441 | Grad norm 0.2289
+[2026-09-18T20:55:54.847415+00:00] Epoch 6/10 | Microbatch 8190/10921 | Optimizer step 31400/54610 | Loss 0.4980 | LR 0.00014279 | Grad norm 0.2318
+[2026-09-18T20:56:07.743336+00:00] Epoch 6/10 | Microbatch 8590/10921 | Optimizer step 31600/54610 | Loss 0.5069 | LR 0.00014118 | Grad norm 0.2391
+[2026-09-18T20:56:20.628739+00:00] Epoch 6/10 | Microbatch 8990/10921 | Optimizer step 31800/54610 | Loss 0.4836 | LR 0.00013957 | Grad norm 0.2293
+[2026-09-18T20:56:33.545170+00:00] Epoch 6/10 | Microbatch 9390/10921 | Optimizer step 32000/54610 | Loss 0.5060 | LR 0.00013797 | Grad norm 0.2287
+[2026-09-18T20:56:46.439471+00:00] Epoch 6/10 | Microbatch 9790/10921 | Optimizer step 32200/54610 | Loss 0.4971 | LR 0.00013637 | Grad norm 0.2333
+[2026-09-18T20:56:59.329181+00:00] Epoch 6/10 | Microbatch 10190/10921 | Optimizer step 32400/54610 | Loss 0.5039 | LR 0.00013477 | Grad norm 0.2424
+[2026-09-18T20:57:12.245318+00:00] Epoch 6/10 | Microbatch 10590/10921 | Optimizer step 32600/54610 | Loss 0.5199 | LR 0.00013318 | Grad norm 0.2413
+[2026-09-18T20:57:22.942505+00:00] Epoch 6/10 | Microbatch 10921/10921 | Optimizer step 32766/54610 | Loss 0.5494 | LR 0.00013187 | Grad norm 0.3517
+[2026-09-18T20:57:34.577860+00:00] Epoch 6/10 completed | Train loss 0.5176 | Validation loss 0.5055 | Validation accuracy 83.7421% | Train tokens/sec 253,636 | Epoch time 364.36s
+[2026-09-18T20:57:37.963315+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T20:57:37.967537+00:00] Epoch 7/10 started
+[2026-09-18T20:57:40.287375+00:00] Epoch 7/10 | Microbatch 68/10921 | Optimizer step 32800/54610 | Loss 0.5037 | LR 0.00013160 | Grad norm 0.2481
+[2026-09-18T20:57:53.205878+00:00] Epoch 7/10 | Microbatch 468/10921 | Optimizer step 33000/54610 | Loss 0.4913 | LR 0.00013001 | Grad norm 0.2349
+[2026-09-18T20:58:06.117372+00:00] Epoch 7/10 | Microbatch 868/10921 | Optimizer step 33200/54610 | Loss 0.4822 | LR 0.00012844 | Grad norm 0.2474
+[2026-09-18T20:58:19.067663+00:00] Epoch 7/10 | Microbatch 1268/10921 | Optimizer step 33400/54610 | Loss 0.4888 | LR 0.00012687 | Grad norm 0.2397
+[2026-09-18T20:58:31.974929+00:00] Epoch 7/10 | Microbatch 1668/10921 | Optimizer step 33600/54610 | Loss 0.5063 | LR 0.00012530 | Grad norm 0.2461
+[2026-09-18T20:58:44.949412+00:00] Epoch 7/10 | Microbatch 2068/10921 | Optimizer step 33800/54610 | Loss 0.5233 | LR 0.00012374 | Grad norm 0.2540
+[2026-09-18T20:58:57.906316+00:00] Epoch 7/10 | Microbatch 2468/10921 | Optimizer step 34000/54610 | Loss 0.5346 | LR 0.00012219 | Grad norm 0.2584
+[2026-09-18T20:59:10.803055+00:00] Epoch 7/10 | Microbatch 2868/10921 | Optimizer step 34200/54610 | Loss 0.5025 | LR 0.00012064 | Grad norm 0.2560
+[2026-09-18T20:59:23.686366+00:00] Epoch 7/10 | Microbatch 3268/10921 | Optimizer step 34400/54610 | Loss 0.5123 | LR 0.00011910 | Grad norm 0.2424
+[2026-09-18T20:59:36.582210+00:00] Epoch 7/10 | Microbatch 3668/10921 | Optimizer step 34600/54610 | Loss 0.5069 | LR 0.00011757 | Grad norm 0.2425
+[2026-09-18T20:59:49.491943+00:00] Epoch 7/10 | Microbatch 4068/10921 | Optimizer step 34800/54610 | Loss 0.5082 | LR 0.00011604 | Grad norm 0.2451
+[2026-09-18T21:00:02.412427+00:00] Epoch 7/10 | Microbatch 4468/10921 | Optimizer step 35000/54610 | Loss 0.5253 | LR 0.00011452 | Grad norm 0.2506
+[2026-09-18T21:00:15.354086+00:00] Epoch 7/10 | Microbatch 4868/10921 | Optimizer step 35200/54610 | Loss 0.5009 | LR 0.00011301 | Grad norm 0.2409
+[2026-09-18T21:00:28.310557+00:00] Epoch 7/10 | Microbatch 5268/10921 | Optimizer step 35400/54610 | Loss 0.5117 | LR 0.00011150 | Grad norm 0.2620
+[2026-09-18T21:00:41.199756+00:00] Epoch 7/10 | Microbatch 5668/10921 | Optimizer step 35600/54610 | Loss 0.5076 | LR 0.00011000 | Grad norm 0.2495
+[2026-09-18T21:00:54.153180+00:00] Epoch 7/10 | Microbatch 6068/10921 | Optimizer step 35800/54610 | Loss 0.4773 | LR 0.00010851 | Grad norm 0.2502
+[2026-09-18T21:01:07.103233+00:00] Epoch 7/10 | Microbatch 6468/10921 | Optimizer step 36000/54610 | Loss 0.5006 | LR 0.00010703 | Grad norm 0.2469
+[2026-09-18T21:01:20.052130+00:00] Epoch 7/10 | Microbatch 6868/10921 | Optimizer step 36200/54610 | Loss 0.5216 | LR 0.00010556 | Grad norm 0.2594
+[2026-09-18T21:01:32.990871+00:00] Epoch 7/10 | Microbatch 7268/10921 | Optimizer step 36400/54610 | Loss 0.4977 | LR 0.00010410 | Grad norm 0.2399
+[2026-09-18T21:01:45.911598+00:00] Epoch 7/10 | Microbatch 7668/10921 | Optimizer step 36600/54610 | Loss 0.5188 | LR 0.00010264 | Grad norm 0.2592
+[2026-09-18T21:01:58.835173+00:00] Epoch 7/10 | Microbatch 8068/10921 | Optimizer step 36800/54610 | Loss 0.5164 | LR 0.00010120 | Grad norm 0.2494
+[2026-09-18T21:02:11.745012+00:00] Epoch 7/10 | Microbatch 8468/10921 | Optimizer step 37000/54610 | Loss 0.5215 | LR 0.00009976 | Grad norm 0.2571
+[2026-09-18T21:02:24.680715+00:00] Epoch 7/10 | Microbatch 8868/10921 | Optimizer step 37200/54610 | Loss 0.5229 | LR 0.00009833 | Grad norm 0.2574
+[2026-09-18T21:02:37.614893+00:00] Epoch 7/10 | Microbatch 9268/10921 | Optimizer step 37400/54610 | Loss 0.5081 | LR 0.00009692 | Grad norm 0.2595
+[2026-09-18T21:02:50.566140+00:00] Epoch 7/10 | Microbatch 9668/10921 | Optimizer step 37600/54610 | Loss 0.5097 | LR 0.00009551 | Grad norm 0.2531
+[2026-09-18T21:03:03.490853+00:00] Epoch 7/10 | Microbatch 10068/10921 | Optimizer step 37800/54610 | Loss 0.5035 | LR 0.00009411 | Grad norm 0.2553
+[2026-09-18T21:03:16.446263+00:00] Epoch 7/10 | Microbatch 10468/10921 | Optimizer step 38000/54610 | Loss 0.4883 | LR 0.00009273 | Grad norm 0.2410
+[2026-09-18T21:03:29.358236+00:00] Epoch 7/10 | Microbatch 10868/10921 | Optimizer step 38200/54610 | Loss 0.4954 | LR 0.00009135 | Grad norm 0.2542
+[2026-09-18T21:03:31.090127+00:00] Epoch 7/10 | Microbatch 10921/10921 | Optimizer step 38227/54610 | Loss 0.4900 | LR 0.00009117 | Grad norm 0.3406
+[2026-09-18T21:03:43.032694+00:00] Epoch 7/10 completed | Train loss 0.5030 | Validation loss 0.4959 | Validation accuracy 84.0547% | Train tokens/sec 253,340 | Epoch time 365.08s
+[2026-09-18T21:03:46.184256+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T21:03:46.187209+00:00] Epoch 8/10 started
+[2026-09-18T21:03:57.461877+00:00] Epoch 8/10 | Microbatch 346/10921 | Optimizer step 38400/54610 | Loss 0.4845 | LR 0.00008999 | Grad norm 0.2552
+[2026-09-18T21:04:10.413747+00:00] Epoch 8/10 | Microbatch 746/10921 | Optimizer step 38600/54610 | Loss 0.4918 | LR 0.00008863 | Grad norm 0.2521
+[2026-09-18T21:04:23.346058+00:00] Epoch 8/10 | Microbatch 1146/10921 | Optimizer step 38800/54610 | Loss 0.4953 | LR 0.00008729 | Grad norm 0.2442
+[2026-09-18T21:04:36.270415+00:00] Epoch 8/10 | Microbatch 1546/10921 | Optimizer step 39000/54610 | Loss 0.4751 | LR 0.00008596 | Grad norm 0.2506
+[2026-09-18T21:04:49.191291+00:00] Epoch 8/10 | Microbatch 1946/10921 | Optimizer step 39200/54610 | Loss 0.4759 | LR 0.00008464 | Grad norm 0.2542
+[2026-09-18T21:05:02.103054+00:00] Epoch 8/10 | Microbatch 2346/10921 | Optimizer step 39400/54610 | Loss 0.4701 | LR 0.00008333 | Grad norm 0.2490
+[2026-09-18T21:05:14.996925+00:00] Epoch 8/10 | Microbatch 2746/10921 | Optimizer step 39600/54610 | Loss 0.5001 | LR 0.00008204 | Grad norm 0.2646
+[2026-09-18T21:05:27.847294+00:00] Epoch 8/10 | Microbatch 3146/10921 | Optimizer step 39800/54610 | Loss 0.4841 | LR 0.00008075 | Grad norm 0.2598
+[2026-09-18T21:05:40.753830+00:00] Epoch 8/10 | Microbatch 3546/10921 | Optimizer step 40000/54610 | Loss 0.4950 | LR 0.00007948 | Grad norm 0.2649
+[2026-09-18T21:05:53.672949+00:00] Epoch 8/10 | Microbatch 3946/10921 | Optimizer step 40200/54610 | Loss 0.4965 | LR 0.00007822 | Grad norm 0.2670
+[2026-09-18T21:06:06.567520+00:00] Epoch 8/10 | Microbatch 4346/10921 | Optimizer step 40400/54610 | Loss 0.4823 | LR 0.00007698 | Grad norm 0.2561
+[2026-09-18T21:06:19.471147+00:00] Epoch 8/10 | Microbatch 4746/10921 | Optimizer step 40600/54610 | Loss 0.4682 | LR 0.00007574 | Grad norm 0.2574
+[2026-09-18T21:06:32.351447+00:00] Epoch 8/10 | Microbatch 5146/10921 | Optimizer step 40800/54610 | Loss 0.4939 | LR 0.00007452 | Grad norm 0.2691
+[2026-09-18T21:06:45.258228+00:00] Epoch 8/10 | Microbatch 5546/10921 | Optimizer step 41000/54610 | Loss 0.4967 | LR 0.00007332 | Grad norm 0.2687
+[2026-09-18T21:06:58.172725+00:00] Epoch 8/10 | Microbatch 5946/10921 | Optimizer step 41200/54610 | Loss 0.4983 | LR 0.00007212 | Grad norm 0.2634
+[2026-09-18T21:07:11.089473+00:00] Epoch 8/10 | Microbatch 6346/10921 | Optimizer step 41400/54610 | Loss 0.5116 | LR 0.00007094 | Grad norm 0.2711
+[2026-09-18T21:07:24.025056+00:00] Epoch 8/10 | Microbatch 6746/10921 | Optimizer step 41600/54610 | Loss 0.4951 | LR 0.00006978 | Grad norm 0.2682
+[2026-09-18T21:07:36.925112+00:00] Epoch 8/10 | Microbatch 7146/10921 | Optimizer step 41800/54610 | Loss 0.4824 | LR 0.00006863 | Grad norm 0.2611
+[2026-09-18T21:07:49.837509+00:00] Epoch 8/10 | Microbatch 7546/10921 | Optimizer step 42000/54610 | Loss 0.4712 | LR 0.00006749 | Grad norm 0.2594
+[2026-09-18T21:08:02.736803+00:00] Epoch 8/10 | Microbatch 7946/10921 | Optimizer step 42200/54610 | Loss 0.4974 | LR 0.00006636 | Grad norm 0.2586
+[2026-09-18T21:08:15.685039+00:00] Epoch 8/10 | Microbatch 8346/10921 | Optimizer step 42400/54610 | Loss 0.4768 | LR 0.00006526 | Grad norm 0.2710
+[2026-09-18T21:08:28.583719+00:00] Epoch 8/10 | Microbatch 8746/10921 | Optimizer step 42600/54610 | Loss 0.4878 | LR 0.00006416 | Grad norm 0.2662
+[2026-09-18T21:08:41.478606+00:00] Epoch 8/10 | Microbatch 9146/10921 | Optimizer step 42800/54610 | Loss 0.4898 | LR 0.00006308 | Grad norm 0.2809
+[2026-09-18T21:08:54.447671+00:00] Epoch 8/10 | Microbatch 9546/10921 | Optimizer step 43000/54610 | Loss 0.4723 | LR 0.00006202 | Grad norm 0.2595
+[2026-09-18T21:09:07.350902+00:00] Epoch 8/10 | Microbatch 9946/10921 | Optimizer step 43200/54610 | Loss 0.4712 | LR 0.00006097 | Grad norm 0.2613
+[2026-09-18T21:09:20.289332+00:00] Epoch 8/10 | Microbatch 10346/10921 | Optimizer step 43400/54610 | Loss 0.4796 | LR 0.00005993 | Grad norm 0.2686
+[2026-09-18T21:09:33.257588+00:00] Epoch 8/10 | Microbatch 10746/10921 | Optimizer step 43600/54610 | Loss 0.5038 | LR 0.00005891 | Grad norm 0.2639
+[2026-09-18T21:09:38.913875+00:00] Epoch 8/10 | Microbatch 10921/10921 | Optimizer step 43688/54610 | Loss 0.5178 | LR 0.00005847 | Grad norm 0.3973
+[2026-09-18T21:09:50.631375+00:00] Epoch 8/10 completed | Train loss 0.4904 | Validation loss 0.4883 | Validation accuracy 84.2829% | Train tokens/sec 253,624 | Epoch time 364.46s
+[2026-09-18T21:09:53.844295+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T21:09:53.847730+00:00] Epoch 9/10 started
+[2026-09-18T21:10:01.188371+00:00] Epoch 9/10 | Microbatch 224/10921 | Optimizer step 43800/54610 | Loss 0.4800 | LR 0.00005791 | Grad norm 0.2705
+[2026-09-18T21:10:14.134484+00:00] Epoch 9/10 | Microbatch 624/10921 | Optimizer step 44000/54610 | Loss 0.4863 | LR 0.00005692 | Grad norm 0.2802
+[2026-09-18T21:10:27.040012+00:00] Epoch 9/10 | Microbatch 1024/10921 | Optimizer step 44200/54610 | Loss 0.4492 | LR 0.00005595 | Grad norm 0.2678
+[2026-09-18T21:10:39.947100+00:00] Epoch 9/10 | Microbatch 1424/10921 | Optimizer step 44400/54610 | Loss 0.4660 | LR 0.00005500 | Grad norm 0.2682
+[2026-09-18T21:10:52.885313+00:00] Epoch 9/10 | Microbatch 1824/10921 | Optimizer step 44600/54610 | Loss 0.4797 | LR 0.00005406 | Grad norm 0.2782
+[2026-09-18T21:11:05.799467+00:00] Epoch 9/10 | Microbatch 2224/10921 | Optimizer step 44800/54610 | Loss 0.4673 | LR 0.00005313 | Grad norm 0.2782
+[2026-09-18T21:11:18.724633+00:00] Epoch 9/10 | Microbatch 2624/10921 | Optimizer step 45000/54610 | Loss 0.4677 | LR 0.00005223 | Grad norm 0.2745
+[2026-09-18T21:11:31.624145+00:00] Epoch 9/10 | Microbatch 3024/10921 | Optimizer step 45200/54610 | Loss 0.4581 | LR 0.00005133 | Grad norm 0.2741
+[2026-09-18T21:11:44.555783+00:00] Epoch 9/10 | Microbatch 3424/10921 | Optimizer step 45400/54610 | Loss 0.4903 | LR 0.00005046 | Grad norm 0.2755
+[2026-09-18T21:11:57.452827+00:00] Epoch 9/10 | Microbatch 3824/10921 | Optimizer step 45600/54610 | Loss 0.4906 | LR 0.00004960 | Grad norm 0.2837
+[2026-09-18T21:12:10.413586+00:00] Epoch 9/10 | Microbatch 4224/10921 | Optimizer step 45800/54610 | Loss 0.4860 | LR 0.00004876 | Grad norm 0.2872
+[2026-09-18T21:12:23.355823+00:00] Epoch 9/10 | Microbatch 4624/10921 | Optimizer step 46000/54610 | Loss 0.4731 | LR 0.00004794 | Grad norm 0.2818
+[2026-09-18T21:12:36.578599+00:00] Epoch 9/10 | Microbatch 5024/10921 | Optimizer step 46200/54610 | Loss 0.4740 | LR 0.00004714 | Grad norm 0.2801
+[2026-09-18T21:12:50.112002+00:00] Epoch 9/10 | Microbatch 5424/10921 | Optimizer step 46400/54610 | Loss 0.4485 | LR 0.00004635 | Grad norm 0.2781
+[2026-09-18T21:13:03.011091+00:00] Epoch 9/10 | Microbatch 5824/10921 | Optimizer step 46600/54610 | Loss 0.4748 | LR 0.00004558 | Grad norm 0.2781
+[2026-09-18T21:13:15.936236+00:00] Epoch 9/10 | Microbatch 6224/10921 | Optimizer step 46800/54610 | Loss 0.4952 | LR 0.00004482 | Grad norm 0.2905
+[2026-09-18T21:13:28.891678+00:00] Epoch 9/10 | Microbatch 6624/10921 | Optimizer step 47000/54610 | Loss 0.5004 | LR 0.00004409 | Grad norm 0.2861
+[2026-09-18T21:13:41.777945+00:00] Epoch 9/10 | Microbatch 7024/10921 | Optimizer step 47200/54610 | Loss 0.4687 | LR 0.00004337 | Grad norm 0.2766
+[2026-09-18T21:13:54.687739+00:00] Epoch 9/10 | Microbatch 7424/10921 | Optimizer step 47400/54610 | Loss 0.4658 | LR 0.00004267 | Grad norm 0.2768
+[2026-09-18T21:14:07.593481+00:00] Epoch 9/10 | Microbatch 7824/10921 | Optimizer step 47600/54610 | Loss 0.4808 | LR 0.00004198 | Grad norm 0.2810
+[2026-09-18T21:14:20.515855+00:00] Epoch 9/10 | Microbatch 8224/10921 | Optimizer step 47800/54610 | Loss 0.4800 | LR 0.00004132 | Grad norm 0.2788
+[2026-09-18T21:14:33.386255+00:00] Epoch 9/10 | Microbatch 8624/10921 | Optimizer step 48000/54610 | Loss 0.4752 | LR 0.00004067 | Grad norm 0.2823
+[2026-09-18T21:14:46.290368+00:00] Epoch 9/10 | Microbatch 9024/10921 | Optimizer step 48200/54610 | Loss 0.4771 | LR 0.00004005 | Grad norm 0.2715
+[2026-09-18T21:14:59.211476+00:00] Epoch 9/10 | Microbatch 9424/10921 | Optimizer step 48400/54610 | Loss 0.4708 | LR 0.00003944 | Grad norm 0.2770
+[2026-09-18T21:15:12.201851+00:00] Epoch 9/10 | Microbatch 9824/10921 | Optimizer step 48600/54610 | Loss 0.4674 | LR 0.00003884 | Grad norm 0.2843
+[2026-09-18T21:15:26.587431+00:00] Epoch 9/10 | Microbatch 10224/10921 | Optimizer step 48800/54610 | Loss 0.4787 | LR 0.00003827 | Grad norm 0.2887
+[2026-09-18T21:15:40.550686+00:00] Epoch 9/10 | Microbatch 10624/10921 | Optimizer step 49000/54610 | Loss 0.4927 | LR 0.00003772 | Grad norm 0.2963
+[2026-09-18T21:15:50.812982+00:00] Epoch 9/10 | Microbatch 10921/10921 | Optimizer step 49149/54610 | Loss 0.4813 | LR 0.00003732 | Grad norm 0.3835
+[2026-09-18T21:16:03.002859+00:00] Epoch 9/10 completed | Train loss 0.4804 | Validation loss 0.4842 | Validation accuracy 84.4331% | Train tokens/sec 250,613 | Epoch time 369.17s
+[2026-09-18T21:16:06.505294+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T21:16:06.508263+00:00] Epoch 10/10 started
+[2026-09-18T21:16:09.997777+00:00] Epoch 10/10 | Microbatch 102/10921 | Optimizer step 49200/54610 | Loss 0.4777 | LR 0.00003718 | Grad norm 0.2863
+[2026-09-18T21:16:23.972818+00:00] Epoch 10/10 | Microbatch 502/10921 | Optimizer step 49400/54610 | Loss 0.4812 | LR 0.00003667 | Grad norm 0.2883
+[2026-09-18T21:16:37.825166+00:00] Epoch 10/10 | Microbatch 902/10921 | Optimizer step 49600/54610 | Loss 0.4679 | LR 0.00003617 | Grad norm 0.2975
+[2026-09-18T21:16:51.120205+00:00] Epoch 10/10 | Microbatch 1302/10921 | Optimizer step 49800/54610 | Loss 0.4748 | LR 0.00003569 | Grad norm 0.2923
+[2026-09-18T21:17:04.636517+00:00] Epoch 10/10 | Microbatch 1702/10921 | Optimizer step 50000/54610 | Loss 0.5304 | LR 0.00003523 | Grad norm 0.3057
+[2026-09-18T21:17:18.096685+00:00] Epoch 10/10 | Microbatch 2102/10921 | Optimizer step 50200/54610 | Loss 0.4731 | LR 0.00003479 | Grad norm 0.2999
+[2026-09-18T21:17:31.574826+00:00] Epoch 10/10 | Microbatch 2502/10921 | Optimizer step 50400/54610 | Loss 0.4416 | LR 0.00003437 | Grad norm 0.2911
+[2026-09-18T21:17:45.163247+00:00] Epoch 10/10 | Microbatch 2902/10921 | Optimizer step 50600/54610 | Loss 0.4754 | LR 0.00003396 | Grad norm 0.2881
+[2026-09-18T21:17:58.799902+00:00] Epoch 10/10 | Microbatch 3302/10921 | Optimizer step 50800/54610 | Loss 0.4606 | LR 0.00003358 | Grad norm 0.2909
+[2026-09-18T21:18:12.376811+00:00] Epoch 10/10 | Microbatch 3702/10921 | Optimizer step 51000/54610 | Loss 0.4554 | LR 0.00003321 | Grad norm 0.2999
+[2026-09-18T21:18:25.548328+00:00] Epoch 10/10 | Microbatch 4102/10921 | Optimizer step 51200/54610 | Loss 0.4638 | LR 0.00003287 | Grad norm 0.2941
+[2026-09-18T21:18:38.949284+00:00] Epoch 10/10 | Microbatch 4502/10921 | Optimizer step 51400/54610 | Loss 0.4307 | LR 0.00003254 | Grad norm 0.2806
+[2026-09-18T21:18:52.117032+00:00] Epoch 10/10 | Microbatch 4902/10921 | Optimizer step 51600/54610 | Loss 0.4707 | LR 0.00003224 | Grad norm 0.2910
+[2026-09-18T21:19:05.129115+00:00] Epoch 10/10 | Microbatch 5302/10921 | Optimizer step 51800/54610 | Loss 0.4689 | LR 0.00003195 | Grad norm 0.2863
+[2026-09-18T21:19:18.642374+00:00] Epoch 10/10 | Microbatch 5702/10921 | Optimizer step 52000/54610 | Loss 0.4774 | LR 0.00003168 | Grad norm 0.2917
+[2026-09-18T21:19:32.077332+00:00] Epoch 10/10 | Microbatch 6102/10921 | Optimizer step 52200/54610 | Loss 0.4701 | LR 0.00003144 | Grad norm 0.2888
+[2026-09-18T21:19:45.219821+00:00] Epoch 10/10 | Microbatch 6502/10921 | Optimizer step 52400/54610 | Loss 0.5091 | LR 0.00003121 | Grad norm 0.3055
+[2026-09-18T21:19:58.976126+00:00] Epoch 10/10 | Microbatch 6902/10921 | Optimizer step 52600/54610 | Loss 0.4585 | LR 0.00003100 | Grad norm 0.2893
+[2026-09-18T21:20:12.587145+00:00] Epoch 10/10 | Microbatch 7302/10921 | Optimizer step 52800/54610 | Loss 0.4806 | LR 0.00003081 | Grad norm 0.3018
+[2026-09-18T21:20:25.708848+00:00] Epoch 10/10 | Microbatch 7702/10921 | Optimizer step 53000/54610 | Loss 0.4858 | LR 0.00003064 | Grad norm 0.2961
+[2026-09-18T21:20:38.733596+00:00] Epoch 10/10 | Microbatch 8102/10921 | Optimizer step 53200/54610 | Loss 0.4797 | LR 0.00003049 | Grad norm 0.3014
+[2026-09-18T21:20:51.898164+00:00] Epoch 10/10 | Microbatch 8502/10921 | Optimizer step 53400/54610 | Loss 0.4890 | LR 0.00003036 | Grad norm 0.3035
+[2026-09-18T21:21:05.258940+00:00] Epoch 10/10 | Microbatch 8902/10921 | Optimizer step 53600/54610 | Loss 0.4419 | LR 0.00003025 | Grad norm 0.2861
+[2026-09-18T21:21:18.689231+00:00] Epoch 10/10 | Microbatch 9302/10921 | Optimizer step 53800/54610 | Loss 0.4654 | LR 0.00003016 | Grad norm 0.2954
+[2026-09-18T21:21:31.772416+00:00] Epoch 10/10 | Microbatch 9702/10921 | Optimizer step 54000/54610 | Loss 0.4907 | LR 0.00003009 | Grad norm 0.3013
+[2026-09-18T21:21:44.846054+00:00] Epoch 10/10 | Microbatch 10102/10921 | Optimizer step 54200/54610 | Loss 0.4294 | LR 0.00003004 | Grad norm 0.2794
+[2026-09-18T21:21:57.952551+00:00] Epoch 10/10 | Microbatch 10502/10921 | Optimizer step 54400/54610 | Loss 0.4814 | LR 0.00003001 | Grad norm 0.2998
+[2026-09-18T21:22:11.183006+00:00] Epoch 10/10 | Microbatch 10902/10921 | Optimizer step 54600/54610 | Loss 0.4601 | LR 0.00003000 | Grad norm 0.2928
+[2026-09-18T21:22:11.811354+00:00] Epoch 10/10 | Microbatch 10921/10921 | Optimizer step 54610/54610 | Loss 0.4534 | LR 0.00003000 | Grad norm 0.4084
+[2026-09-18T21:22:23.873002+00:00] Epoch 10/10 completed | Train loss 0.4740 | Validation loss 0.4819 | Validation accuracy 84.5072% | Train tokens/sec 244,894 | Epoch time 377.38s
+[2026-09-18T21:22:26.900659+00:00] New best checkpoint saved: task1_artifacts/version_4/checkpoints/version_4_20260918T201955Z_best_model.pt
+[2026-09-18T21:22:26.910783+00:00] Training completed in 3718.02 seconds
+[2026-09-18T21:22:26.916913+00:00] Peak allocated GPU memory: 3.60 GB
+[2026-09-18T21:22:26.921840+00:00] NaN/non-finite count: 0
+[2026-09-18T21:22:26.926575+00:00] Best validation loss: 0.4819
+[2026-09-18T21:22:45.625460+00:00] Training completed in 3736.74 seconds
+[2026-09-18T21:22:45.629980+00:00] Peak allocated GPU memory: 3.60 GB
+[2026-09-18T21:22:45.634530+00:00] NaN/non-finite count: 0
+[2026-09-18T21:22:45.638976+00:00] Best validation loss: 0.4819
