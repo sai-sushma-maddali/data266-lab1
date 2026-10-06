@@ -1,0 +1,125 @@
+2026-10-01 14:04:41 PDT | INFO | ============================================================
+2026-10-01 14:04:41 PDT | INFO | TASK 2 NOTEBOOK RUN STARTED
+2026-10-01 14:04:41 PDT | INFO | SID4: 5775
+2026-10-01 14:04:41 PDT | INFO | SEED: 5775
+2026-10-01 14:04:41 PDT | INFO | Device: cuda
+2026-10-01 14:04:41 PDT | INFO | GPU: NVIDIA L4
+2026-10-01 14:04:41 PDT | INFO | GPU memory: 22.03 GB
+2026-10-01 14:04:41 PDT | INFO | Project root: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2
+2026-10-01 14:06:52 PDT | INFO | Downloading Yelp Polarity dataset.
+2026-10-01 14:07:05 PDT | INFO | Saving training split to Drive.
+2026-10-01 14:07:08 PDT | INFO | Saving test split to Drive.
+2026-10-01 14:07:09 PDT | INFO | Raw Parquet files saved successfully.
+2026-10-01 14:07:09 PDT | INFO | Training examples: 560000
+2026-10-01 14:07:09 PDT | INFO | Test examples: 38000
+2026-10-01 14:07:09 PDT | INFO | Dataset columns: ['text', 'label']
+2026-10-01 14:07:09 PDT | INFO | Dataset features: {'text': Value('string'), 'label': ClassLabel(names=['1', '2'])}
+2026-10-01 14:09:03 PDT | INFO | EDA summary saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/eda/eda_summary.json
+2026-10-01 14:09:03 PDT | INFO | Review lengths saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/eda/review_lengths.npz
+2026-10-01 14:09:03 PDT | INFO | Train summary: {'total_rows': 560000, 'class_counts': {0: 280000, 1: 280000}, 'class_percentages': {'0': 50.0, '1': 50.0}, 'missing_text': 0, 'empty_text': 0, 'malformed_text': 0, 'invalid_labels': 0, 'length_statistics': {'minimum': 1, 'maximum': 1052, 'mean': 133.03, 'median': 97.0, '90th_percentile': 282.0, '95th_percentile': 372.0, '99th_percentile': 608.0}}
+2026-10-01 14:09:03 PDT | INFO | Test summary: {'total_rows': 38000, 'class_counts': {0: 19000, 1: 19000}, 'class_percentages': {'0': 50.0, '1': 50.0}, 'missing_text': 0, 'empty_text': 0, 'malformed_text': 0, 'invalid_labels': 0, 'length_statistics': {'minimum': 1, 'maximum': 1007, 'mean': 132.56, 'median': 97.0, '90th_percentile': 281.0, '95th_percentile': 367.0, '99th_percentile': 603.010000000002}}
+2026-10-01 14:10:31 PDT | INFO | Class distribution plot saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/eda/class_distribution.png
+2026-10-01 14:10:31 PDT | INFO | Length distribution plot saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/eda/review_length_distribution.png
+2026-10-01 14:12:51 PDT | INFO | Creating stratified train/validation split.
+2026-10-01 14:12:59 PDT | INFO | Split indices saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/split_information/split_indices.npz
+2026-10-01 14:13:20 PDT | INFO | train | rows=504000 | negative=252000 | positive=252000
+2026-10-01 14:13:22 PDT | INFO | validation | rows=56000 | negative=28000 | positive=28000
+2026-10-01 14:13:23 PDT | INFO | test | rows=38000 | negative=19000 | positive=19000
+2026-10-01 14:20:47 PDT | INFO | Preprocessing configuration saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/config/preprocessing_config.json
+2026-10-01 14:24:17 PDT | INFO | Preprocessing train split with 2 processes.
+2026-10-01 14:24:58 PDT | INFO | train split saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/cleaned/train_clean.parquet
+2026-10-01 14:24:58 PDT | INFO | Preprocessing validation split with 2 processes.
+2026-10-01 14:25:03 PDT | INFO | validation split saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/cleaned/validation_clean.parquet
+2026-10-01 14:25:04 PDT | INFO | Preprocessing test split with 2 processes.
+2026-10-01 14:25:07 PDT | INFO | test split saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/cleaned/test_clean.parquet
+2026-10-01 14:25:15 PDT | INFO | train | rows=504000 | empty after cleaning=38
+2026-10-01 14:25:16 PDT | INFO | validation | rows=56000 | empty after cleaning=2
+2026-10-01 14:25:16 PDT | INFO | test | rows=38000 | empty after cleaning=1
+2026-10-01 14:35:26 PDT | INFO | Final train data saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/final_clean/train_final.parquet
+2026-10-01 14:35:26 PDT | INFO | Final validation data saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/final_clean/validation_final.parquet
+2026-10-01 14:35:27 PDT | INFO | Final test data saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/final_clean/test_final.parquet
+2026-10-01 14:35:41 PDT | INFO | train | rows=504000 | negative=252000 | positive=252000 | empty replaced=38
+2026-10-01 14:35:42 PDT | INFO | validation | rows=56000 | negative=28000 | positive=28000 | empty replaced=2
+2026-10-01 14:35:43 PDT | INFO | test | rows=38000 | negative=19000 | positive=19000 | empty replaced=1
+2026-10-01 14:39:28 PDT | INFO | Building vocabulary from training data.
+2026-10-01 14:39:36 PDT | INFO | Vocabulary saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/vocabulary/vocabulary.json
+2026-10-01 14:39:36 PDT | INFO | Vocabulary statistics: {'maximum_vocabulary_size': 40000, 'actual_vocabulary_size': 40000, 'minimum_frequency': 2, 'unique_training_tokens': 196532, 'total_training_tokens': 32400291, 'covered_training_tokens': 32054735, 'training_token_coverage_percent': 98.93, 'special_tokens': ['<pad>', '<unk>', '<empty>']}
+2026-10-01 14:41:21 PDT | INFO | Tokenization analysis saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/eda/tokenization_analysis.json
+2026-10-01 14:59:52 PDT | INFO | Encoding train split.
+2026-10-01 14:59:59 PDT | INFO | Encoded train split saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/encoded/train_encoded.parquet
+2026-10-01 14:59:59 PDT | INFO | Encoding validation split.
+2026-10-01 15:00:00 PDT | INFO | Encoded validation split saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/encoded/validation_encoded.parquet
+2026-10-01 15:00:01 PDT | INFO | Encoding test split.
+2026-10-01 15:00:02 PDT | INFO | Encoded test split saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/data_processed/encoded/test_encoded.parquet
+2026-10-01 15:00:11 PDT | INFO | Encoding configuration saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/config/encoding_config.json
+2026-10-01 15:01:54 PDT | INFO | DataLoaders created: train batches=1969, validation batches=110, test batches=75
+2026-10-01 15:01:54 PDT | INFO | DataLoader configuration saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/config/dataloader_config.json
+2026-10-01 15:14:01 PDT | INFO | Baseline GRU created with 5219201 trainable parameters.
+2026-10-01 15:14:01 PDT | INFO | Baseline GRU configuration saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/config/baseline_gru_config.json
+2026-10-01 15:15:37 PDT | INFO | GRU smoke test passed | loss=0.7102 | gradient_norm=0.2095 | peak_memory=0.146 GB
+2026-10-01 15:22:22 PDT | INFO | ============================================================
+2026-10-01 15:22:22 PDT | INFO | BASELINE GRU TRAINING STARTED
+2026-10-01 15:22:22 PDT | INFO | Starting epoch: 1
+2026-10-01 15:23:07 PDT | INFO | New best GRU checkpoint saved at epoch 1.
+2026-10-01 15:23:08 PDT | INFO | Epoch 1/6 | train loss=0.2474 | train accuracy=0.8974 | validation loss=0.1745 | validation accuracy=0.9327 | gradient norm=0.5155 | train examples/sec=11643.79 | peak memory=0.182 GB | nonfinite=0 | lr=0.001000
+2026-10-01 15:23:53 PDT | INFO | New best GRU checkpoint saved at epoch 2.
+2026-10-01 15:23:53 PDT | INFO | Epoch 2/6 | train loss=0.1628 | train accuracy=0.9360 | validation loss=0.1645 | validation accuracy=0.9389 | gradient norm=0.3191 | train examples/sec=11659.21 | peak memory=0.181 GB | nonfinite=0 | lr=0.001000
+2026-10-01 15:24:39 PDT | INFO | New best GRU checkpoint saved at epoch 3.
+2026-10-01 15:24:39 PDT | INFO | Epoch 3/6 | train loss=0.1404 | train accuracy=0.9455 | validation loss=0.1417 | validation accuracy=0.9468 | gradient norm=0.2659 | train examples/sec=11587.69 | peak memory=0.181 GB | nonfinite=0 | lr=0.001000
+2026-10-01 15:25:25 PDT | INFO | New best GRU checkpoint saved at epoch 4.
+2026-10-01 15:25:25 PDT | INFO | Epoch 4/6 | train loss=0.1268 | train accuracy=0.9511 | validation loss=0.1395 | validation accuracy=0.9477 | gradient norm=0.2434 | train examples/sec=11616.08 | peak memory=0.181 GB | nonfinite=0 | lr=0.001000
+2026-10-01 15:26:10 PDT | INFO | New best GRU checkpoint saved at epoch 5.
+2026-10-01 15:26:10 PDT | INFO | Epoch 5/6 | train loss=0.1177 | train accuracy=0.9547 | validation loss=0.1320 | validation accuracy=0.9501 | gradient norm=0.2325 | train examples/sec=11853.52 | peak memory=0.182 GB | nonfinite=0 | lr=0.001000
+2026-10-01 15:26:55 PDT | INFO | Epoch 6/6 | train loss=0.1099 | train accuracy=0.9581 | validation loss=0.1388 | validation accuracy=0.9508 | gradient norm=0.2272 | train examples/sec=11839.11 | peak memory=0.182 GB | nonfinite=1 | lr=0.001000
+2026-10-01 15:26:55 PDT | INFO | Best GRU model loaded | epoch=5 | validation loss=0.1320 | training session time=272.65 seconds
+2026-10-01 15:28:45 PDT | INFO | Baseline GRU test inference complete | loss=0.1270 | accuracy=0.9517 | examples/sec=21242.15 | peak memory=0.279 GB
+2026-10-01 15:30:25 PDT | INFO | Baseline GRU point metrics saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/baseline_gru/point_metrics.json
+2026-10-01 15:32:00 PDT | INFO | Baseline GRU bootstrap confidence intervals saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/baseline_gru/bootstrap_confidence_intervals.json
+2026-10-01 15:33:15 PDT | INFO | Baseline GRU slice metrics saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/baseline_gru/slice_metrics.csv
+2026-10-01 15:34:40 PDT | INFO | Bi-LSTM created with 5384449 trainable parameters.
+2026-10-01 15:34:40 PDT | INFO | Bi-LSTM configuration saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/config/bidirectional_lstm_config.json
+2026-10-01 15:35:50 PDT | INFO | Bi-LSTM smoke test passed | loss=0.6904 | gradient norm=0.1328 | peak memory=0.214 GB
+2026-10-01 15:37:38 PDT | INFO | ============================================================
+2026-10-01 15:37:38 PDT | INFO | BIDIRECTIONAL_LSTM TRAINING STARTED
+2026-10-01 15:38:46 PDT | INFO | bidirectional_lstm best checkpoint saved at epoch 1.
+2026-10-01 15:38:46 PDT | INFO | bidirectional_lstm | epoch=1/6 | train loss=0.2405 | train accuracy=0.8998 | validation loss=0.2214 | validation accuracy=0.9279 | gradient norm=0.4430 | examples/sec=7691.40 | peak memory=0.279 GB | nonfinite=1
+2026-10-01 15:39:53 PDT | INFO | bidirectional_lstm best checkpoint saved at epoch 2.
+2026-10-01 15:39:53 PDT | INFO | bidirectional_lstm | epoch=2/6 | train loss=0.1637 | train accuracy=0.9360 | validation loss=0.1688 | validation accuracy=0.9391 | gradient norm=0.3124 | examples/sec=7765.36 | peak memory=0.277 GB | nonfinite=0
+2026-10-01 15:41:01 PDT | INFO | bidirectional_lstm best checkpoint saved at epoch 3.
+2026-10-01 15:41:02 PDT | INFO | bidirectional_lstm | epoch=3/6 | train loss=0.1420 | train accuracy=0.9452 | validation loss=0.1624 | validation accuracy=0.9458 | gradient norm=0.2628 | examples/sec=7673.19 | peak memory=0.281 GB | nonfinite=0
+2026-10-01 15:42:10 PDT | INFO | bidirectional_lstm best checkpoint saved at epoch 4.
+2026-10-01 15:42:10 PDT | INFO | bidirectional_lstm | epoch=4/6 | train loss=0.1279 | train accuracy=0.9509 | validation loss=0.1608 | validation accuracy=0.9473 | gradient norm=0.2368 | examples/sec=7662.51 | peak memory=0.276 GB | nonfinite=0
+2026-10-01 15:43:18 PDT | INFO | bidirectional_lstm best checkpoint saved at epoch 5.
+2026-10-01 15:43:18 PDT | INFO | bidirectional_lstm | epoch=5/6 | train loss=0.1180 | train accuracy=0.9549 | validation loss=0.1503 | validation accuracy=0.9488 | gradient norm=0.2230 | examples/sec=7655.18 | peak memory=0.281 GB | nonfinite=0
+2026-10-01 15:44:26 PDT | INFO | bidirectional_lstm best checkpoint saved at epoch 6.
+2026-10-01 15:44:26 PDT | INFO | bidirectional_lstm | epoch=6/6 | train loss=0.1094 | train accuracy=0.9586 | validation loss=0.1461 | validation accuracy=0.9492 | gradient norm=0.2125 | examples/sec=7658.05 | peak memory=0.277 GB | nonfinite=0
+2026-10-01 15:47:20 PDT | INFO | Bi-LSTM test evaluation complete | accuracy=0.9533 | macro-F1=0.9533 | MCC=0.9066
+2026-10-01 15:48:49 PDT | INFO | Bi-LSTM bootstrap confidence intervals completed.
+2026-10-01 15:49:47 PDT | INFO | Bi-LSTM slice metrics saved successfully.
+2026-10-01 15:51:42 PDT | INFO | Attention LSTM created with 5252354 trainable parameters.
+2026-10-01 15:51:42 PDT | INFO | Attention LSTM configuration saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/config/attention_lstm_config.json
+2026-10-01 15:51:45 PDT | INFO | Attention LSTM created with 5252354 trainable parameters.
+2026-10-01 15:51:45 PDT | INFO | Attention LSTM configuration saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/config/attention_lstm_config.json
+2026-10-01 15:52:34 PDT | INFO | Attention LSTM smoke test passed | loss=0.6947 | gradient norm=0.0392 | peak memory=0.225 GB
+2026-10-01 15:53:56 PDT | INFO | ============================================================
+2026-10-01 15:53:56 PDT | INFO | ATTENTION_LSTM TRAINING STARTED
+2026-10-01 15:55:15 PDT | INFO | attention_lstm best checkpoint saved at epoch 1.
+2026-10-01 15:55:15 PDT | INFO | attention_lstm | epoch=1/6 | train loss=0.2367 | train accuracy=0.9020 | validation loss=0.1629 | validation accuracy=0.9360 | gradient norm=0.3042 | examples/sec=6573.18 | peak memory=0.269 GB | nonfinite=0
+2026-10-01 15:56:34 PDT | INFO | attention_lstm best checkpoint saved at epoch 2.
+2026-10-01 15:56:34 PDT | INFO | attention_lstm | epoch=2/6 | train loss=0.1616 | train accuracy=0.9371 | validation loss=0.1532 | validation accuracy=0.9422 | gradient norm=0.2512 | examples/sec=6625.34 | peak memory=0.269 GB | nonfinite=0
+2026-10-01 15:57:51 PDT | INFO | attention_lstm best checkpoint saved at epoch 3.
+2026-10-01 15:57:51 PDT | INFO | attention_lstm | epoch=3/6 | train loss=0.1410 | train accuracy=0.9458 | validation loss=0.1486 | validation accuracy=0.9442 | gradient norm=0.2288 | examples/sec=6707.51 | peak memory=0.271 GB | nonfinite=0
+2026-10-01 15:59:08 PDT | INFO | attention_lstm best checkpoint saved at epoch 4.
+2026-10-01 15:59:08 PDT | INFO | attention_lstm | epoch=4/6 | train loss=0.1288 | train accuracy=0.9508 | validation loss=0.1482 | validation accuracy=0.9463 | gradient norm=0.2202 | examples/sec=6746.97 | peak memory=0.269 GB | nonfinite=0
+2026-10-01 16:00:26 PDT | INFO | attention_lstm best checkpoint saved at epoch 5.
+2026-10-01 16:00:27 PDT | INFO | attention_lstm | epoch=5/6 | train loss=0.1196 | train accuracy=0.9546 | validation loss=0.1445 | validation accuracy=0.9478 | gradient norm=0.2179 | examples/sec=6648.58 | peak memory=0.271 GB | nonfinite=1
+2026-10-01 16:01:44 PDT | INFO | attention_lstm | epoch=6/6 | train loss=0.1121 | train accuracy=0.9575 | validation loss=0.1461 | validation accuracy=0.9492 | gradient norm=0.2171 | examples/sec=6682.12 | peak memory=0.271 GB | nonfinite=1
+2026-10-01 16:03:00 PDT | INFO | Attention LSTM test evaluation complete | accuracy=0.9506 | macro-F1=0.9506 | MCC=0.9011
+2026-10-01 16:04:09 PDT | INFO | Attention LSTM bootstrap confidence intervals completed.
+2026-10-01 16:06:01 PDT | INFO | Attention LSTM slice metrics saved successfully.
+2026-10-01 16:07:12 PDT | INFO | Pairwise McNemar tests completed and saved.
+2026-10-01 16:12:22 PDT | INFO | Consolidated model comparison saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/model_comparison/model_comparison.csv
+2026-10-01 16:13:03 PDT | INFO | Consolidated slice comparison saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/model_comparison/slice_accuracy_comparison.csv
+2026-10-01 16:13:59 PDT | INFO | Model disagreement and error analysis completed.
+2026-10-01 16:16:54 PDT | INFO | Qualitative error examples saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/model_comparison/qualitative_error_examples.csv
+2026-10-01 16:19:44 PDT | INFO | Final comparison figures saved to: /content/drive/MyDrive/DATA 266/Lab/Lab1/Task 2/outputs/model_comparison/figures

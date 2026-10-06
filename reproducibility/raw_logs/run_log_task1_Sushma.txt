@@ -1,0 +1,400 @@
+
+================================================================================
+Cell 01 - Personal parameters
+Timestamp: 2026-09-19T00:28:50+00:00
+================================================================================
+SID4:  5775
+SEED:  5775
+SLICE:  775
+HP_ID:  3
+CLS_A:  5
+CLS_B:  7
+
+
+================================================================================
+Cell 02 - Length of complete Training and Text set
+Timestamp: 2026-09-19T00:29:19+00:00
+================================================================================
+
+
+================================================================================
+Cell 03 - Sample text from training
+Timestamp: 2026-09-19T00:29:19+00:00
+================================================================================
+
+
+================================================================================
+Cell 04 - Size of training and validation stories
+Timestamp: 2026-09-19T00:29:19+00:00
+================================================================================
+Size of training stories: 100000
+Size of validation stories: 10000
+
+
+================================================================================
+Cell 05 - Sample text from train and validation after split
+Timestamp: 2026-09-19T00:29:19+00:00
+================================================================================
+{'text': 'Anna liked peanuts very much. She liked to eat them with her mom and dad after dinner. But one day, she saw a big jar of peanuts on the shelf in the kitchen. She wanted to have some, but she could not reach the jar. She looked around for a chair or a stool, but there was none.\n\nShe saw her big brother Tom playing with his cars on the floor. She had an idea. She went to Tom and said, "Tom, can you help me? I want some peanuts from the shelf. You are tall and strong. Can you get the jar for me?"\n\nTom looked at Anna and smiled. He liked to help his little sister. He said, "Sure, Anna. I can help you. But you have to be brave. The jar is very high and heavy. You have to hold it with both hands and be careful not to drop it. Can you do that?"\n\nAnna nodded. She said, "Yes, I can do that. I am brave. Thank you, Tom." She followed Tom to the kitchen. Tom reached for the jar and lifted it down. He gave it to Anna, who held it with both hands. She felt the weight of the jar and the shape of the peanuts inside. She was happy.\n\nShe said, "Thank you, Tom. You are very nice. Can I share some peanuts with you?" Tom said, "You\'re welcome, Anna. And yes, you can share some peanuts with me. I like peanuts too. Let\'s go to the table and open the jar together." They went to the table and opened the jar. They took some peanuts and ate them. They were crunchy and salty and yummy. They smiled at each other and enjoyed their snack. They were both brave and kind.'}
+--------------
+{'text': 'Once there was an ant who wanted to find adventure. He decided he wanted to raise up high to see the world. He searched high and low looking for a way to do it. \n\nSoon, he stumbled upon a giant stick. He was so excited and he knew it was just what he needed to reach new heights. He quickly grabbed hold of the stick and started to climb. \n\nSlowly but surely, the ant made his way up the stick. It seemed to go on forever and he felt his strength waning. With each minute, the ant felt more and more proud of himself for not giving up. \n\nFinally, the ant reached the top. He was so proud of himself for continuing despite the difficult task. He looked out in awe at all the wonders he could now see. It was so much better than he could have ever expected!\n\nThe ant made his way back down the stick and set off again, this time with a much bigger sense of adventure.'}
+
+
+================================================================================
+Cell 06 - Size of vocabulary
+Timestamp: 2026-09-19T00:29:22+00:00
+================================================================================
+Size of the vocabulary is 152 characters
+
+
+================================================================================
+Cell 07 - Unseen characters in validation
+Timestamp: 2026-09-19T00:29:22+00:00
+================================================================================
+{'Ÿ', 'ð'}
+
+
+================================================================================
+Cell 08 - Token to ID and ID to token mapping
+Timestamp: 2026-09-19T00:29:23+00:00
+================================================================================
+{'\n': 0, ' ': 1, '!': 2, '"': 3, '$': 4, '%': 5, '&': 6, "'": 7, '(': 8, ')': 9, '*': 10, '+': 11, ',': 12, '-': 13, '.': 14, '/': 15, '0': 16, '1': 17, '2': 18, '3': 19, '4': 20, '5': 21, '6': 22, '7': 23, '8': 24, '9': 25, ':': 26, ';': 27, '<': 28, '>': 29, '?': 30, 'A': 31, 'B': 32, 'C': 33, 'D': 34, 'E': 35, 'F': 36, 'G': 37, 'H': 38, 'I': 39, 'J': 40, 'K': 41, 'L': 42, 'M': 43, 'N': 44, 'O': 45, 'P': 46, 'Q': 47, 'R': 48, 'S': 49, 'T': 50, 'U': 51, 'V': 52, 'W': 53, 'X': 54, 'Y': 55, 'Z': 56, '[': 57, '\\': 58, ']': 59, '`': 60, 'a': 61, 'b': 62, 'c': 63, 'd': 64, 'e': 65, 'f': 66, 'g': 67, 'h': 68, 'i': 69, 'j': 70, 'k': 71, 'l': 72, 'm': 73, 'n': 74, 'o': 75, 'p': 76, 'q': 77, 'r': 78, 's': 79, 't': 80, 'u': 81, 'v': 82, 'w': 83, 'x': 84, 'y': 85, 'z': 86, '~': 87, '\xa0': 88, '¡': 89, '£': 90, '¤': 91, '¥': 92, '¦': 93, '¨': 94, '©': 95, 'ª': 96, '«': 97, '\xad': 98, '®': 99, '¯': 100, '°': 101, '±': 102, '³': 103, '´': 104, 'µ': 105, '¶': 106, '·': 107, '¸': 108, '¹': 109, 'º': 110, '»': 111, '¼': 112, '½': 113, '¾': 114, '¿': 115, 'Â': 116, 'Ã': 117, 'â': 118, 'ã': 119, 'ä': 120, 'å': 121, 'æ': 122, 'ç': 123, 'è': 124, 'é': 125, 'ï': 126, 'Œ': 127, 'œ': 128, 'Š': 129, 'š': 130, 'Ž': 131, 'ƒ': 132, 'ˆ': 133, '˜': 134, '–': 135, '‘': 136, '’': 137, '‚': 138, '“': 139, '”': 140, '„': 141, '†': 142, '‡': 143, '•': 144, '…': 145, '‰': 146, '‹': 147, '›': 148, '€': 149, '™': 150, '<UNK>': 151}
+{0: '\n', 1: ' ', 2: '!', 3: '"', 4: '$', 5: '%', 6: '&', 7: "'", 8: '(', 9: ')', 10: '*', 11: '+', 12: ',', 13: '-', 14: '.', 15: '/', 16: '0', 17: '1', 18: '2', 19: '3', 20: '4', 21: '5', 22: '6', 23: '7', 24: '8', 25: '9', 26: ':', 27: ';', 28: '<', 29: '>', 30: '?', 31: 'A', 32: 'B', 33: 'C', 34: 'D', 35: 'E', 36: 'F', 37: 'G', 38: 'H', 39: 'I', 40: 'J', 41: 'K', 42: 'L', 43: 'M', 44: 'N', 45: 'O', 46: 'P', 47: 'Q', 48: 'R', 49: 'S', 50: 'T', 51: 'U', 52: 'V', 53: 'W', 54: 'X', 55: 'Y', 56: 'Z', 57: '[', 58: '\\', 59: ']', 60: '`', 61: 'a', 62: 'b', 63: 'c', 64: 'd', 65: 'e', 66: 'f', 67: 'g', 68: 'h', 69: 'i', 70: 'j', 71: 'k', 72: 'l', 73: 'm', 74: 'n', 75: 'o', 76: 'p', 77: 'q', 78: 'r', 79: 's', 80: 't', 81: 'u', 82: 'v', 83: 'w', 84: 'x', 85: 'y', 86: 'z', 87: '~', 88: '\xa0', 89: '¡', 90: '£', 91: '¤', 92: '¥', 93: '¦', 94: '¨', 95: '©', 96: 'ª', 97: '«', 98: '\xad', 99: '®', 100: '¯', 101: '°', 102: '±', 103: '³', 104: '´', 105: 'µ', 106: '¶', 107: '·', 108: '¸', 109: '¹', 110: 'º', 111: '»', 112: '¼', 113: '½', 114: '¾', 115: '¿', 116: 'Â', 117: 'Ã', 118: 'â', 119: 'ã', 120: 'ä', 121: 'å', 122: 'æ', 123: 'ç', 124: 'è', 125: 'é', 126: 'ï', 127: 'Œ', 128: 'œ', 129: 'Š', 130: 'š', 131: 'Ž', 132: 'ƒ', 133: 'ˆ', 134: '˜', 135: '–', 136: '‘', 137: '’', 138: '‚', 139: '“', 140: '”', 141: '„', 142: '†', 143: '‡', 144: '•', 145: '…', 146: '‰', 147: '‹', 148: '›', 149: '€', 150: '™', 151: '<UNK>'}
+
+
+================================================================================
+Cell 09 - Length of train and validation tokens
+Timestamp: 2026-09-19T00:29:26+00:00
+================================================================================
+89727321 8810729
+
+
+================================================================================
+Cell 10 - Testing sample after creating dataset
+Timestamp: 2026-09-19T00:29:26+00:00
+================================================================================
+torch.Size([256])
+torch.Size([256])
+
+
+================================================================================
+Cell 11 - Snapshot of test dataset tensors
+Timestamp: 2026-09-19T00:29:26+00:00
+================================================================================
+tensor([31, 74, 74, 61,  1, 72, 69, 71, 65, 64,  1, 76, 65, 61, 74, 81, 80, 79,
+         1, 82, 65, 78, 85,  1, 73, 81, 63, 68, 14,  1, 49, 68, 65,  1, 72, 69,
+        71, 65, 64,  1, 80, 75,  1, 65, 61, 80,  1, 80, 68, 65, 73,  1, 83, 69,
+        80, 68,  1, 68, 65, 78,  1, 73, 75, 73,  1, 61, 74, 64,  1, 64, 61, 64,
+         1, 61, 66, 80, 65, 78,  1, 64, 69, 74, 74, 65, 78, 14,  1, 32, 81, 80,
+         1, 75, 74, 65,  1, 64, 61, 85, 12,  1, 79, 68, 65,  1, 79, 61, 83,  1,
+        61,  1, 62, 69, 67,  1, 70, 61, 78,  1, 75, 66,  1, 76, 65, 61, 74, 81,
+        80, 79,  1, 75, 74,  1, 80, 68, 65,  1, 79, 68, 65, 72, 66,  1, 69, 74,
+         1, 80, 68, 65,  1, 71, 69, 80, 63, 68, 65, 74, 14,  1, 49, 68, 65,  1,
+        83, 61, 74, 80, 65, 64,  1, 80, 75,  1, 68, 61, 82, 65,  1, 79, 75, 73,
+        65, 12,  1, 62, 81, 80,  1, 79, 68, 65,  1, 63, 75, 81, 72, 64,  1, 74,
+        75, 80,  1, 78, 65, 61, 63, 68,  1, 80, 68, 65,  1, 70, 61, 78, 14,  1,
+        49, 68, 65,  1, 72, 75, 75, 71, 65, 64,  1, 61, 78, 75, 81, 74, 64,  1,
+        66, 75, 78,  1, 61,  1, 63, 68, 61, 69, 78,  1, 75, 78,  1, 61,  1, 79,
+        80, 75, 75, 72])
+tensor([74, 74, 61,  1, 72, 69, 71, 65, 64,  1, 76, 65, 61, 74, 81, 80, 79,  1,
+        82, 65, 78, 85,  1, 73, 81, 63, 68, 14,  1, 49, 68, 65,  1, 72, 69, 71,
+        65, 64,  1, 80, 75,  1, 65, 61, 80,  1, 80, 68, 65, 73,  1, 83, 69, 80,
+        68,  1, 68, 65, 78,  1, 73, 75, 73,  1, 61, 74, 64,  1, 64, 61, 64,  1,
+        61, 66, 80, 65, 78,  1, 64, 69, 74, 74, 65, 78, 14,  1, 32, 81, 80,  1,
+        75, 74, 65,  1, 64, 61, 85, 12,  1, 79, 68, 65,  1, 79, 61, 83,  1, 61,
+         1, 62, 69, 67,  1, 70, 61, 78,  1, 75, 66,  1, 76, 65, 61, 74, 81, 80,
+        79,  1, 75, 74,  1, 80, 68, 65,  1, 79, 68, 65, 72, 66,  1, 69, 74,  1,
+        80, 68, 65,  1, 71, 69, 80, 63, 68, 65, 74, 14,  1, 49, 68, 65,  1, 83,
+        61, 74, 80, 65, 64,  1, 80, 75,  1, 68, 61, 82, 65,  1, 79, 75, 73, 65,
+        12,  1, 62, 81, 80,  1, 79, 68, 65,  1, 63, 75, 81, 72, 64,  1, 74, 75,
+        80,  1, 78, 65, 61, 63, 68,  1, 80, 68, 65,  1, 70, 61, 78, 14,  1, 49,
+        68, 65,  1, 72, 75, 75, 71, 65, 64,  1, 61, 78, 75, 81, 74, 64,  1, 66,
+        75, 78,  1, 61,  1, 63, 68, 61, 69, 78,  1, 75, 78,  1, 61,  1, 79, 80,
+        75, 75, 72, 12])
+
+
+================================================================================
+Cell 12 - Testing one batch of dataloaders
+Timestamp: 2026-09-19T00:29:27+00:00
+================================================================================
+torch.Size([64, 256])
+torch.Size([64, 256])
+
+
+================================================================================
+Cell 13 - Testing input and output shape after self attention block
+Timestamp: 2026-09-19T00:29:28+00:00
+================================================================================
+Input shape: torch.Size([64, 256, 512])
+Output shape: torch.Size([64, 256, 512])
+
+
+================================================================================
+Cell 14 - Input and Output shape after decoder block
+Timestamp: 2026-09-19T00:29:28+00:00
+================================================================================
+Input shape: torch.Size([64, 256, 512])
+Output shape: torch.Size([64, 256, 512])
+
+
+================================================================================
+Cell 15 - Testing model with one training batch
+Timestamp: 2026-09-19T00:29:28+00:00
+================================================================================
+Input shape:  torch.Size([64, 256])
+Output Logits shape:  torch.Size([64, 256, 152])
+
+
+================================================================================
+Cell 16 - Testing forward pass of one batch
+Timestamp: 2026-09-19T00:29:29+00:00
+================================================================================
+Logits shape after reshape: torch.Size([16384, 152])
+Targets shape after reshape: torch.Size([16384])
+Loss: 5.159028053283691
+
+
+================================================================================
+Cell 17 - Training Logs
+Timestamp: 2026-09-19T03:09:44+00:00
+================================================================================
+Epoch 1/15, Training Loss: 1.0817, Validation Loss: 0.7184
+Epoch 2/15, Training Loss: 0.6946, Validation Loss: 0.6345
+Epoch 3/15, Training Loss: 0.6364, Validation Loss: 0.5995
+Epoch 4/15, Training Loss: 0.6049, Validation Loss: 0.5786
+Epoch 5/15, Training Loss: 0.5840, Validation Loss: 0.5636
+Epoch 6/15, Training Loss: 0.5686, Validation Loss: 0.5543
+Epoch 7/15, Training Loss: 0.5564, Validation Loss: 0.5454
+Epoch 8/15, Training Loss: 0.5466, Validation Loss: 0.5385
+Epoch 9/15, Training Loss: 0.5383, Validation Loss: 0.5340
+Epoch 10/15, Training Loss: 0.5315, Validation Loss: 0.5307
+Epoch 11/15, Training Loss: 0.5259, Validation Loss: 0.5278
+Epoch 12/15, Training Loss: 0.5215, Validation Loss: 0.5259
+Epoch 13/15, Training Loss: 0.5183, Validation Loss: 0.5246
+Epoch 14/15, Training Loss: 0.5163, Validation Loss: 0.5243
+Epoch 15/15, Training Loss: 0.5154, Validation Loss: 0.5242
+
+Best Performing Model: Epoch 15
+Best Validation Loss: 0.5242
+Training-only time: 9362.95 seconds
+Training tokens/sec: 287496.25
+Total run time (training + validation): 9615.01 seconds
+NaN/Inf count: 0
+Average gradient norm: 0.3377
+Maximum gradient norm: 4.5985
+Peak GPU memory: 12244.10 MB
+
+
+================================================================================
+Cell 18 - All training parameters
+Timestamp: 2026-09-19T03:09:44+00:00
+================================================================================
+===== Data Configuration =====
+Seed: 5775
+Training stories: 100,000
+Validation stories: 10,000
+Vocabulary size: 152
+Sequence length: 256
+Stride: 128
+Training sequences: 700,993
+Validation sequences: 68,832
+
+===== DataLoader Configuration =====
+Batch size: 64
+Training shuffle: True
+Validation shuffle: False
+Number of workers: 8
+Pinned memory: True
+Persistent workers: True
+
+===== Model Hyperparameters =====
+Hidden dimension: 512
+Attention heads: 8
+Head dimension: 64
+Decoder blocks: 8
+FFN dimension: 2048
+Dropout: 0.1
+Trainable parameters: 25,506,968
+Total parameters: 25,506,968
+
+===== Training Hyperparameters =====
+Optimizer: Adam
+Base learning rate: 0.0001
+Current learning rate: 0.0
+Epochs: 15
+Warm-up steps: 1000
+Total scheduler steps: 164310
+LR schedule: Linear warm-up + cosine decay
+Loss function: CrossEntropyLoss
+Mixed precision: BF16
+
+===== Hardware =====
+Device: cuda
+GPU: NVIDIA GeForce RTX 5090
+
+
+================================================================================
+Cell 19 - Model Parameter count
+Timestamp: 2026-09-19T03:09:45+00:00
+================================================================================
+Total parameters: 25,506,968
+Trainable parameters: 25,506,968
+
+
+================================================================================
+Cell 20 - Greedy generation output
+Timestamp: 2026-09-19T03:09:47+00:00
+================================================================================
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big bush with lots of blueberries. She wanted to eat them, but her mom said no. 
+
+Lily was sad and didn't know what to do. She went to her mom and said, "Mommy, I want the blueberries. Can we have some blueberries?" 
+
+Her mom said, "Sure, let's go get some blueberries." They went to the kitchen and found some blueberries. Lily was so happy and said, "Thank you, Mommy! These blueberries are so yummy!" 
+
+After they finished eating, Lily
+
+
+================================================================================
+Cell 21 - Temperature generation output
+Timestamp: 2026-09-19T03:09:50+00:00
+================================================================================
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big, red ball in the garden. It was so pretty and sparkly, she wanted to keep it. 
+
+Lily ran to her mommy and said, "Mommy, can I keep the ball?" 
+
+Her mommy said, "No, Lily. The ball is not safe for us. We should try to reverse it." 
+
+Lily felt sad and didn't know what to do. She asked her mommy for help and her mommy took the ball away. They went home and Lily played with the ball all day long. She was happy and her mommy told her t
+
+
+================================================================================
+Cell 22 - Temperature generation output for various temps
+Timestamp: 2026-09-19T03:09:54+00:00
+================================================================================
+
+===== Temperature = 0.2 =====
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine. One day, she saw a big puddle of water and wanted to jump in it. But her mom said, "No, Lily. That puddle is too deep and dangerous. You might get hurt."
+
+Li
+--------------------------------------------------------------------------------
+
+===== Temperature = 0.4 =====
+Once upon a time, there was a little girl named Lily. She loved to play outside in the sunshine and pick flowers. One day, she found a shiny penny on the ground. She picked it up and showed it to her mom.
+
+"Mommy, look what I found!" Lily said.
+
+"That's 
+--------------------------------------------------------------------------------
+
+===== Temperature = 0.6 =====
+Once upon a time, there was a little girl named Lily. She loved to play outside in the park with her friends. One day, she found a beautiful butterfly with bright colors. She wanted to catch it, but it flew away. 
+
+Lily was sad because she couldn't catch
+--------------------------------------------------------------------------------
+
+===== Temperature = 0.8 =====
+Once upon a time, there was a little girl named Lily. She had a favorite yellow dress that she loved to wear every day. One day, Lily's mom said they were going to visit her grandma. Lily was so excited!
+
+When they arrived, her mom said it was time to co
+--------------------------------------------------------------------------------
+
+===== Temperature = 1.0 =====
+Once upon a time, there was a little girl named Lily. She lived in a humble town with her family. They dreamed of being a gifted little girl called Lucy. One day, Lily's mom asked her to come inside for dinner. Lily went to bed that night dreaming of pla
+--------------------------------------------------------------------------------
+
+
+================================================================================
+Cell 23 - Generation metrics
+Timestamp: 2026-09-19T03:10:14+00:00
+================================================================================
+===== Generation Metrics =====
+Decoding: Temperature sampling (T=0.4)
+Generated samples: 20
+Generated tokens: 4000
+Generation time: 18.53 seconds
+Generation tokens/sec: 215.92
+Distinct-1: 0.0115
+Distinct-2: 0.0897
+Distinct-3: 0.2548
+Repeated 4-gram rate: 0.5865
+
+
+================================================================================
+Cell 24 - Best model evaluation metrics
+Timestamp: 2026-09-19T03:13:10+00:00
+================================================================================
+===== Best Model Evaluation Metrics =====
+
+Training Metrics
+Cross-entropy loss: 0.4850
+Perplexity: 1.6242
+Bits-per-character: 0.6997
+Top-1 next-character accuracy: 84.2200%
+
+Validation Metrics
+Cross-entropy loss: 0.5242
+Perplexity: 1.6891
+Bits-per-character: 0.7563
+Top-1 next-character accuracy: 83.1884%
+
+Generalization
+Generalization gap (val loss - train loss): 0.0392
+
+
+================================================================================
+Cell 20 - Greedy generation output
+Timestamp: 2026-09-19T03:37:13+00:00
+================================================================================
+Nora found a tiny door behind the bookshelf and went inside. She opened the door and saw a big box with a bow on it. She opened it and saw a bow on the table. She was curious and wanted to see what was inside.
+
+She opened the box and saw a big bow. It was a shiny red bow. She wanted to see what was inside. She took the bow and opened it. Inside, she found a bow. She put the bow in the bow. She said, "This is a special bow. It is a special bow. It is a special bow. It is a special bow. It can make your hair look pretty. It is a special bow
+
+
+================================================================================
+Cell 21 - Temperature generation output
+Timestamp: 2026-09-19T03:37:28+00:00
+================================================================================
+Nora found a tiny door behind the bookshelf and went to take a look. She saw a picture of a cat on a bench. It was a mouse. The mouse was scared, but she wanted to be brave. She took a deep breath and went on a search.
+
+The mouse found a big cat. The cat was calling to the mouse. The mouse said, "Please don't touch me. I am a cat." The mouse thought for a moment and said, "I will take you to the cat. Then I will turn on the mouse."
+
+The mouse turned on the mouse and the cat did not like the mouse. The mouse was sad and said, "That is not 
+
+
+================================================================================
+Cell 22 - Temperature generation output for various temps
+Timestamp: 2026-09-19T03:37:52+00:00
+================================================================================
+
+===== Temperature = 0.2 =====
+Nora found a tiny door behind the bookshelf and started to read. She was so excited to see what was inside the bookshelf.
+
+Suddenly, she heard a voice behind her. It was a little girl who was crying. She asked her mommy, "Why are you crying?" H
+--------------------------------------------------------------------------------
+
+===== Temperature = 0.4 =====
+Nora found a tiny door behind the bookshelf and started to unpack it. She was so excited that she ran to show her mom. 
+
+Her mom saw the tiny door and said, "Wow, Lily! You're so clever! You look so clever!" Lily smiled and said, "Thank you, Mo
+--------------------------------------------------------------------------------
+
+===== Temperature = 0.6 =====
+Nora found a tiny door behind the bookshelf and walked up to the first one to open it. Inside was a beautiful firework with lots of pretty colours. 
+
+The little girl was so happy and she thanked the old man for his help. She gave him a big hug 
+--------------------------------------------------------------------------------
+
+===== Temperature = 0.8 =====
+Nora found a tiny door behind the bookshelf and a long paintbrush. She dug a hole in the floor and put the paintbrush in it. She painted a picture of a car on a plate and a brush on the cover.
+
+"Look, Ben, I made a car!" Anna said, holding up a
+--------------------------------------------------------------------------------
+
+===== Temperature = 1.0 =====
+Nora found a tiny door behind the bookshelf and whispered, "Hello!"
+
+The door was filled with a zip of candy. Jane was so excited! She asked her mum "Can I see it?"
+
+Her mum smiled and said yes. She opened the present and found the tiny door. I
+--------------------------------------------------------------------------------
+
